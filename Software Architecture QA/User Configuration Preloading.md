@@ -54,4 +54,10 @@ Set up monitoring to track memory usage, load times, and the performance impact 
 
 ## Conclusion
 
-Assuming if the JSON does not contain any sensitive information, if it contains we need to go for a different approach like in-memory caching
+Assuming if the JSON does not contain any sensitive information, if it contains we need to go for a different approach like 
+
+- Encryption
+- Access Control
+- Secure Initialization
+- Tokenization
+- Minimal Data Exposure
