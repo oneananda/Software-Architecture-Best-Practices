@@ -1,6 +1,6 @@
 # Software-Architecture-Best-Practices
 
-Welcome to the **Software-Architecture-Best-Practices** repository! This project is dedicated to providing valuable insights and guidance on software architecture. Here, you’ll find best practices, performance suggestions, comparative analyses of different technologies, and a Q&A section addressing common and complex scenarios.
+Welcome to the **Software-Architecture-Best-Practices** repository! This repository is dedicated to providing valuable insights and guidance on software architecture. Here, you’ll find best practices, performance suggestions, comparative analyses of different technologies, and a Q&A section addressing common and complex scenarios.
 
 ## Table of Contents
 
