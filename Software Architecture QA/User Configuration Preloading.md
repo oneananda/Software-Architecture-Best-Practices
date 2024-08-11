@@ -2,13 +2,13 @@
 
 ## Question # 1
 
-I am having an application which the each user configuration is rendered in json format, the json is huge for each user but the user base is low as within 100 count 
+I am having an application which the each user configuration is rendered in JSON format, the JSON is huge for each user but the user base is low as within 100 count 
 
-Since the json configuration is huge to load, can I load the list of json for all users at the time of initialization (say in the morning time, every day), so that it be served whenever any particular user is logging in, so that I can improve the performance ?
+Since the JSON configuration is huge to load, can I load the list of JSON for all users at the time of initialization (say in the morning time, every day), so that it be served whenever any particular user is logging in, so that I can improve the performance ?
 
 ### Answer
 
-Preloading the JSON configuration for all users at the time of application initialization can indeed improve performance, especially given your scenario where the user base is small (around 100 users). This approach can reduce the overhead of repeatedly loading large JSON files during each user's login, thereby speeding up response times.
+Preloading the JSON configuration for all users at the time of application initialization can really improve performance, especially given the scenario where the user base is small (around 100 users). This approach can reduce the complexity of repeatedly loading large JSON files during each user's login, thereby speeding up response times.
 
 **Considerations for Preloading JSON Configurations:**
 
@@ -51,3 +51,7 @@ Set up monitoring to track memory usage, load times, and the performance impact 
 - Step 2: Store the configurations in a thread-safe in-memory data structure (like a dictionary or a cache).
 - Step 3: When a user logs in, retrieve their configuration from the preloaded data instead of loading it from disk.
 - Step 4: Periodically refresh the preloaded data or update it as necessary based on changes.
+
+## Conclusion
+
+Assuming if the JSON does not contain any sensitive information, if it contains we need to go for a different approach like in-memory caching
