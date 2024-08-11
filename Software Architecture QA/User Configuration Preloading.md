@@ -12,31 +12,31 @@ Preloading the JSON configuration for all users at the time of application initi
 
 **Considerations for Preloading JSON Configurations:**
 
-Memory Usage:
+- Memory Usage:
 
 Ensure that your application has enough memory to hold all the preloaded JSON configurations simultaneously. Since the configurations are large, assess the total memory footprint.
 
-Initialization Time:
+- Initialization Time:
 
 The initial loading process might take some time, especially if the JSON files are very large. Consider scheduling this initialization during low-traffic periods (e.g., early morning) to avoid impacting users.
 
-Data Consistency:
+- Data Consistency:
 
-If the JSON configurations are subject to change, you’ll need a strategy to update the preloaded data when changes occur. This could be handled by reloading specific configurations or refreshing all configurations at regular intervals.
+If the JSON configurations are subject to change, youâ€™ll need a strategy to update the preloaded data when changes occur. This could be handled by reloading specific configurations or refreshing all configurations at regular intervals.
 
-Caching Strategy:
+- Caching Strategy:
 
 Implement an effective caching strategy. You could store the preloaded configurations in an in-memory cache, such as using Redis or an in-process memory cache if your application runs on a single server.
 
-Fallback Mechanism:
+- Fallback Mechanism:
 
 Have a fallback mechanism in case the preloading fails or if a configuration is requested that was not preloaded (e.g., a new user).
 
-Concurrency:
+- Concurrency:
 
 Ensure thread safety when accessing the preloaded configurations. Use appropriate locking mechanisms or thread-safe collections.
 
-Monitoring and Alerts:
+- Monitoring and Alerts:
 
 Set up monitoring to track memory usage, load times, and the performance impact of this preloading strategy. This will help in fine-tuning the process.
 
