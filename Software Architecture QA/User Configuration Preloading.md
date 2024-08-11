@@ -40,6 +40,10 @@ Ensure thread safety when accessing the preloaded configurations. Use appropriat
 
 Set up monitoring to track memory usage, load times, and the performance impact of this preloading strategy. This will help in fine-tuning the process.
 
+### Security considerations
+
+- Use data encryption if the data is using sensitive information 
+- Provide strong access control to avoid data leak
 
 ### Implementation Outline:
 
