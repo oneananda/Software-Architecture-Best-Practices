@@ -17,3 +17,18 @@ Caching offloads repetitive work from backend systems like databases and APIs, r
 
 - Scalability: 
 Caching allows applications to handle more users and higher loads by reducing the need to generate the same data repeatedly.
+
+## Types of caching
+
+### In-Memory Caching
+
+Stores data in the application’s memory (RAM), making it extremely fast to access.
+
+Use Case: Suitable for storing small, frequently accessed pieces of data such as user session information or application configuration settings.
+
+### Distributed Caching
+
+Stores cached data in a shared location, accessible by multiple application instances. Examples include Redis and Memcached.
+
+Use Case: Ideal for applications running on multiple servers where consistency and availability of cached data across the entire system are important.
+
