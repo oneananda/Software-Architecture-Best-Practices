@@ -49,3 +49,9 @@ Use Case: Commonly used in web applications and APIs to serve repeated requests 
 Stores static assets like images, CSS, and JavaScript files in the user’s web browser.
 
 Use Case: Speeds up page load times by reducing the need to re-download unchanged assets.
+
+### Content Delivery Network (CDN) Caching
+
+Distributes cached copies of static content across multiple geographically distributed servers.
+
+Use Case: Enhances the performance of web applications by serving content from servers closer to the user's location.
