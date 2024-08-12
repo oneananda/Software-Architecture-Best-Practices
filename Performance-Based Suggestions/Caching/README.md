@@ -32,3 +32,9 @@ Stores cached data in a shared location, accessible by multiple application inst
 
 Use Case: Ideal for applications running on multiple servers where consistency and availability of cached data across the entire system are important.
 
+### Database Caching
+
+Caches the results of database queries or frequently accessed data from the database.
+
+Use Case: Reduces the load on the database and speeds up data retrieval for queries that are run repeatedly with the same results.
+
