@@ -38,3 +38,8 @@ Caches the results of database queries or frequently accessed data from the data
 
 Use Case: Reduces the load on the database and speeds up data retrieval for queries that are run repeatedly with the same results.
 
+### HTTP/Response Caching
+
+Caches HTTP responses to avoid regenerating the same response for identical requests.
+
+Use Case: Commonly used in web applications and APIs to serve repeated requests more quickly.
