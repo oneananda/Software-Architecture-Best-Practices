@@ -43,3 +43,9 @@ Use Case: Reduces the load on the database and speeds up data retrieval for quer
 Caches HTTP responses to avoid regenerating the same response for identical requests.
 
 Use Case: Commonly used in web applications and APIs to serve repeated requests more quickly.
+
+### Browser Caching
+
+Stores static assets like images, CSS, and JavaScript files in the user’s web browser.
+
+Use Case: Speeds up page load times by reducing the need to re-download unchanged assets.
