@@ -1,0 +1,3 @@
+# Caching
+
+Caching is the technique generally store the frequently acccessed data in an intermediate temporary place instead of server, which is typically faster and less resource-intensive than fetching the data from the original source, such as a server or database. By retrieving data from the cache instead of the server, applications can reduce load times, lower costs, and save computational resources.
