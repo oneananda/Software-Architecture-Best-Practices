@@ -114,4 +114,8 @@ This type of caching is implemented within the application code. It allows for c
 Use Case: Caching complex computed results that are expensive to generate but frequently needed, this is the very common and easy to implement.
 
 
+### Edge Caching:
 
+Caching is done at the edge of the network, closer to the end-user, often used in combination with CDNs.
+
+Use Case: Further reduces latency by storing cached content near the user's location, enhancing the end-user experience.
