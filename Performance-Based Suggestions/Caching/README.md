@@ -66,3 +66,42 @@ Caching is reducing the number of calls to database or any other storage systems
 
 Caching can provide fault-tolerance to some level in case of any system failure, caching can be helpful until the system back to normal.
 
+## Considerations When Implementing Caching
+
+### Cache invalidation 
+
+One of the key challenges in caching in invalidating when the actual data is updated, 
+
+Stratergies 
+
+- Time based expiration
+- Manual invalidation
+- Using cache stamps
+
+### Size management
+
+Size management is one of the key points, if not managed correctly this will create lot of trouble instead of helping for performace,
+
+Strategies include 
+
+- Setting maximum cache sizes 
+- Using policies like LRU (Least Recently Used) for cache eviction.
+
+### Consistency 
+
+Consistency between the original data and cached one is very critical, 
+
+Techniques used
+
+- Cache coherence protocols
+- Eventual consistency model
+
+### Security 
+
+Securing the data and restricting access to unauthorized persons should be handled by default,
+
+Use the following techniques
+
+- Encryption 
+- RBAC (Role based access control)
+
