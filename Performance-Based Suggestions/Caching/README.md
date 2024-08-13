@@ -55,3 +55,14 @@ Use Case: Speeds up page load times by reducing the need to re-download unchange
 Distributes cached copies of static content across multiple geographically distributed servers.
 
 Use Case: Enhances the performance of web applications by serving content from servers closer to the user's location.
+
+## Additional Benefits of Caching
+
+### Cost Efficiency
+
+Caching is reducing the number of calls to database or any other storage systems, this will be useful especially in cloud environments if the billings are per usage.
+
+### Availablity
+
+Caching can provide fault-tolerance to some level in case of any system failure, caching can be helpful until the system back to normal.
+
