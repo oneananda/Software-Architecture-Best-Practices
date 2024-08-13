@@ -105,3 +105,13 @@ Use the following techniques
 - Encryption 
 - RBAC (Role based access control)
 
+## Advanced Types of Caching
+
+### Application-Level Caching:
+
+This type of caching is implemented within the application code. It allows for custom caching logic based on specific business rules or scenarios.
+
+Use Case: Caching complex computed results that are expensive to generate but frequently needed, this is the very common and easy to implement.
+
+
+
