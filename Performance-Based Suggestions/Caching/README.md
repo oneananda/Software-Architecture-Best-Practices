@@ -128,3 +128,9 @@ Data is written simultaneously in database and as well as in the caching, this e
 Caching the data which is not used may cost you slightly.
 
 Use Case: Suitable when data consistency is a priority, and the application can tolerate slight performance overhead due to dual writes.
+
+### Write-Back (Write-Behind) Cache:
+
+Data is initially written to the cache and then asynchronously written to the database.
+
+Use Case: Ideal for applications where performance is crucial, and the risk of data loss in case of a failure is acceptable.
