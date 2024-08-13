@@ -134,3 +134,16 @@ Use Case: Suitable when data consistency is a priority, and the application can 
 Data is initially written to the cache and then asynchronously written to the database.
 
 Use Case: Ideal for applications where performance is crucial, and the risk of data loss in case of a failure is acceptable.
+
+### Read-Through Cache:
+
+The application queries the cache first; if the data is not found, it is retrieved from the database and then stored in the cache.
+
+Use Case: Useful when the cache is expected to have a high hit rate, minimizing database access.
+
+### Cache-Aside (Lazy Loading):
+
+The application queries the cache, and if the data is not present, it retrieves it from the database and populates the cache.
+
+Use Case: A common strategy where the cache is only populated with data as needed, reducing unnecessary data in the cache.
+
