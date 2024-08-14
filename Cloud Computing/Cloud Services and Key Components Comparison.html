@@ -9,164 +9,263 @@
             width: 100%;
             border-collapse: collapse;
         }
+
         th, td {
             padding: 12px;
             border: 1px solid #dddddd;
             text-align: left;
         }
+
         th {
             background-color: #f2f2f2;
         }
-		tbody tr:nth-child(odd) {
-			background-color: #f9f9f9;
-		}
 
-		tbody tr:nth-child(even) {
-			background-color: #ffffff;
-		}
+        tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
 
         @media screen and (max-width: 768px) {
             table, thead, tbody, th, td, tr {
                 display: block;
             }
+
             th {
                 position: absolute;
                 top: -9999px;
                 left: -9999px;
             }
+
             td {
                 border: none;
                 position: relative;
                 padding-left: 50%;
             }
-            td:before {
-                position: absolute;
-                top: 6px;
-                left: 6px;
-                width: 45%;
-                padding-right: 10px;
-                white-space: nowrap;
-                content: attr(data-label);
-                font-weight: bold;
-            }
+
+                td:before {
+                    position: absolute;
+                    top: 6px;
+                    left: 6px;
+                    width: 45%;
+                    padding-right: 10px;
+                    white-space: nowrap;
+                    content: attr(data-label);
+                    font-weight: bold;
+                }
         }
     </style>
 </head>
 <body>
 
-<h2>Cloud Services and Key Components Comparison</h2>
+    <h2>Comprehensive Cloud Services Comparison</h2>
 
-<table>
-    <thead>
-        <tr>
-            <th>Category</th>
-            <th>AWS</th>
-            <th>Azure</th>
-            <th>Google Cloud</th>
-            <th>IBM Cloud</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Global Load Balancing</td>
-            <td>AWS Global Accelerator</td>
-            <td>Azure Front Door</td>
-            <td>Google Cloud Global Load Balancer</td>
-            <td>IBM Cloud Internet Services (CIS)</td>
-        </tr>
-        <tr>
-            <td>Regional Load Balancing</td>
-            <td>Elastic Load Balancing (ELB), AWS Application Load Balancer (ALB), AWS Network Load Balancer (NLB)</td>
-            <td>Azure Load Balancer, Azure Application Gateway</td>
-            <td>Google Cloud HTTP(S) Load Balancer, Google Cloud TCP/UDP Load Balancer</td>
-            <td>IBM Cloud Load Balancer</td>
-        </tr>
-        <tr>
-            <td>Microservices Orchestration</td>
-            <td>AWS EKS (Kubernetes)</td>
-            <td>Azure Kubernetes Service (AKS)</td>
-            <td>Google Kubernetes Engine (GKE)</td>
-            <td>IBM Kubernetes Service</td>
-        </tr>
-        <tr>
-            <td>Relational Database</td>
-            <td>Amazon Aurora Global Database</td>
-            <td>Azure SQL Database Managed Instance</td>
-            <td>Google Cloud Spanner</td>
-            <td>IBM Db2 on Cloud</td>
-        </tr>
-        <tr>
-            <td>NoSQL Database</td>
-            <td>Amazon DynamoDB</td>
-            <td>Azure Cosmos DB</td>
-            <td>Google Cloud Firestore/Bigtable</td>
-            <td>IBM Cloudant</td>
-        </tr>
-        <tr>
-            <td>Cache Layer</td>
-            <td>Amazon ElastiCache (Redis/Memcached)</td>
-            <td>Azure Cache for Redis</td>
-            <td>Google Cloud Memorystore (Redis/Memcached)</td>
-            <td>IBM DataPower Gateway</td>
-        </tr>
-        <tr>
-            <td>Content Delivery Network</td>
-            <td>Amazon CloudFront</td>
-            <td>Azure CDN</td>
-            <td>Google Cloud CDN</td>
-            <td>IBM Cloud CDN</td>
-        </tr>
-        <tr>
-            <td>Message Broker</td>
-            <td>Amazon SQS/SNS</td>
-            <td>Azure Service Bus</td>
-            <td>Google Pub/Sub</td>
-            <td>IBM MQ</td>
-        </tr>
-        <tr>
-            <td>Security (Encryption & IAM)</td>
-            <td>AWS KMS, AWS IAM</td>
-            <td>Azure Key Vault, Azure Active Directory</td>
-            <td>Google Cloud KMS, Google IAM</td>
-            <td>IBM Key Protect, IBM Identity and Access Management</td>
-        </tr>
-        <tr>
-            <td>Web Application Firewall</td>
-            <td>AWS WAF, AWS Shield</td>
-            <td>Azure WAF, Azure DDoS Protection</td>
-            <td>Google Cloud Armor</td>
-            <td>IBM Cloud Security Groups</td>
-        </tr>
-        <tr>
-            <td>Monitoring and Logging</td>
-            <td>AWS CloudWatch, AWS X-Ray</td>
-            <td>Azure Monitor, Azure Log Analytics</td>
-            <td>Google Cloud Monitoring, Google Cloud Logging</td>
-            <td>IBM Log Analysis, IBM Monitoring</td>
-        </tr>
-        <tr>
-            <td>Backup and Disaster Recovery</td>
-            <td>AWS Backup</td>
-            <td>Azure Backup</td>
-            <td>Google Cloud Backup and DR</td>
-            <td>IBM Cloud Backup</td>
-        </tr>
-        <tr>
-            <td>Serverless Computing</td>
-            <td>AWS Lambda</td>
-            <td>Azure Functions</td>
-            <td>Google Cloud Functions</td>
-            <td>IBM Cloud Functions</td>
-        </tr>
-        <tr>
-            <td>CI/CD Tools</td>
-            <td>AWS CodePipeline, AWS CodeBuild</td>
-            <td>Azure DevOps, GitHub Actions</td>
-            <td>Google Cloud Build</td>
-            <td>IBM UrbanCode</td>
-        </tr>
-    </tbody>
-</table>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>AWS</th>
+                <th>Azure</th>
+                <th>Google Cloud</th>
+                <th>IBM Cloud</th>
+                <th>Oracle Cloud</th>
+                <th>Alibaba Cloud</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Compute</td>
+                <td>Amazon EC2</td>
+                <td>Azure Virtual Machines</td>
+                <td>Google Compute Engine</td>
+                <td>IBM Virtual Servers</td>
+                <td>Oracle Cloud Compute</td>
+                <td>Alibaba ECS</td>
+            </tr>
+            <tr>
+                <td>Containers</td>
+                <td>Amazon ECS, Amazon EKS</td>
+                <td>Azure Kubernetes Service (AKS)</td>
+                <td>Google Kubernetes Engine (GKE)</td>
+                <td>IBM Kubernetes Service</td>
+                <td>Oracle Container Engine for Kubernetes (OKE)</td>
+                <td>Alibaba Container Service</td>
+            </tr>
+            <tr>
+                <td>Serverless</td>
+                <td>AWS Lambda</td>
+                <td>Azure Functions</td>
+                <td>Google Cloud Functions</td>
+                <td>IBM Cloud Functions</td>
+                <td>Oracle Functions</td>
+                <td>Alibaba Function Compute</td>
+            </tr>
+            <tr>
+                <td>Block Storage</td>
+                <td>Amazon EBS</td>
+                <td>Azure Disk Storage</td>
+                <td>Google Persistent Disk</td>
+                <td>IBM Block Storage</td>
+                <td>Oracle Block Volumes</td>
+                <td>Alibaba ESSD</td>
+            </tr>
+            <tr>
+                <td>Object Storage</td>
+                <td>Amazon S3</td>
+                <td>Azure Blob Storage</td>
+                <td>Google Cloud Storage</td>
+                <td>IBM Cloud Object Storage</td>
+                <td>Oracle Object Storage</td>
+                <td>Alibaba OSS</td>
+            </tr>
+            <tr>
+                <td>File Storage</td>
+                <td>Amazon EFS</td>
+                <td>Azure Files</td>
+                <td>Google Filestore</td>
+                <td>IBM File Storage</td>
+                <td>Oracle File Storage</td>
+                <td>Alibaba NAS</td>
+            </tr>
+            <tr>
+                <td>Relational Database</td>
+                <td>Amazon RDS, Amazon Aurora</td>
+                <td>Azure SQL Database</td>
+                <td>Google Cloud SQL, Google Cloud Spanner</td>
+                <td>IBM Db2, IBM Cloud Databases for PostgreSQL</td>
+                <td>Oracle Autonomous Database</td>
+                <td>Alibaba ApsaraDB for RDS</td>
+            </tr>
+            <tr>
+                <td>NoSQL Database</td>
+                <td>Amazon DynamoDB</td>
+                <td>Azure Cosmos DB</td>
+                <td>Google Cloud Firestore, Google Cloud Bigtable</td>
+                <td>IBM Cloudant</td>
+                <td>Oracle NoSQL Database</td>
+                <td>Alibaba ApsaraDB for HBase, Alibaba Table Store</td>
+            </tr>
+            <tr>
+                <td>Data Warehousing</td>
+                <td>Amazon Redshift</td>
+                <td>Azure Synapse Analytics</td>
+                <td>Google BigQuery</td>
+                <td>IBM Db2 Warehouse</td>
+                <td>Oracle Autonomous Data Warehouse</td>
+                <td>Alibaba AnalyticDB</td>
+            </tr>
+            <tr>
+                <td>Cache</td>
+                <td>Amazon ElastiCache (Redis/Memcached)</td>
+                <td>Azure Cache for Redis</td>
+                <td>Google Cloud Memorystore</td>
+                <td>IBM Cloud Databases for Redis</td>
+                <td>Oracle Cloud Infrastructure Redis</td>
+                <td>Alibaba ApsaraDB for Redis</td>
+            </tr>
+            <tr>
+                <td>Content Delivery Network (CDN)</td>
+                <td>Amazon CloudFront</td>
+                <td>Azure CDN</td>
+                <td>Google Cloud CDN</td>
+                <td>IBM Cloud CDN</td>
+                <td>Oracle Cloud CDN</td>
+                <td>Alibaba CDN</td>
+            </tr>
+            <tr>
+                <td>Networking - Load Balancing</td>
+                <td>Amazon ELB, AWS Global Accelerator</td>
+                <td>Azure Load Balancer, Azure Traffic Manager</td>
+                <td>Google Cloud Load Balancing</td>
+                <td>IBM Cloud Load Balancer</td>
+                <td>Oracle Load Balancer</td>
+                <td>Alibaba SLB</td>
+            </tr>
+            <tr>
+                <td>Networking - DNS</td>
+                <td>Amazon Route 53</td>
+                <td>Azure DNS</td>
+                <td>Google Cloud DNS</td>
+                <td>IBM Cloud Internet Services</td>
+                <td>Oracle DNS</td>
+                <td>Alibaba Cloud DNS</td>
+            </tr>
+            <tr>
+                <td>Networking - VPN</td>
+                <td>AWS VPN</td>
+                <td>Azure VPN Gateway</td>
+                <td>Google Cloud VPN</td>
+                <td>IBM Cloud VPN</td>
+                <td>Oracle VPN</td>
+                <td>Alibaba Cloud VPN</td>
+            </tr>
+            <tr>
+                <td>Identity and Access Management (IAM)</td>
+                <td>AWS IAM</td>
+                <td>Azure Active Directory</td>
+                <td>Google Cloud IAM</td>
+                <td>IBM Identity and Access Management</td>
+                <td>Oracle Identity Cloud Service</td>
+                <td>Alibaba RAM</td>
+            </tr>
+            <tr>
+                <td>Monitoring and Logging</td>
+                <td>Amazon CloudWatch, AWS CloudTrail</td>
+                <td>Azure Monitor, Azure Log Analytics</td>
+                <td>Google Cloud Monitoring, Google Cloud Logging</td>
+                <td>IBM Log Analysis, IBM Monitoring</td>
+                <td>Oracle Cloud Infrastructure Monitoring</td>
+                <td>Alibaba CloudMonitor</td>
+            </tr>
+            <tr>
+                <td>Security - Key Management</td>
+                <td>AWS KMS</td>
+                <td>Azure Key Vault</td>
+                <td>Google Cloud KMS</td>
+                <td>IBM Key Protect</td>
+                <td>Oracle Cloud Infrastructure Key Management</td>
+                <td>Alibaba Cloud KMS</td>
+            </tr>
+            <tr>
+                <td>Security - Web Application Firewall (WAF)</td>
+                <td>AWS WAF</td>
+                <td>Azure WAF</td>
+                <td>Google Cloud Armor</td>
+                <td>IBM Cloud Internet Services (CIS) WAF</td>
+                <td>Oracle Cloud WAF</td>
+                <td>Alibaba Cloud WAF</td>
+            </tr>
+            <tr>
+                <td>AI & Machine Learning</td>
+                <td>Amazon SageMaker</td>
+                <td>Azure Machine Learning</td>
+                <td>Google AI Platform</td>
+                <td>IBM Watson</td>
+                <td>Oracle Cloud Infrastructure Data Science</td>
+                <td>Alibaba PAI</td>
+            </tr>
+            <tr>
+                <td>Big Data</td>
+                <td>Amazon EMR</td>
+                <td>Azure HDInsight, Azure Databricks</td>
+                <td>Google Dataproc</td>
+                <td>IBM Analytics Engine</td>
+                <td>Oracle Big Data Service</td>
+                <td>Alibaba E-MapReduce</td>
+            </tr>
+            <tr>
+                <td>IoT</td>
+                <td>AWS IoT</td>
+                <td>Azure IoT Hub</td>
+                <td>Google Cloud IoT</td>
+                <td>IBM Watson IoT Platform</td>
+                <td>Oracle IoT Cloud</td>
+                <td>Alibaba IoT</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 </html>
