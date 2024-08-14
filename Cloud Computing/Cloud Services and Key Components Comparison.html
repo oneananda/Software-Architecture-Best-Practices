@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud Services Comparison</title>
     <style>
+        /* Watermark Styles */
+        body::before {
+            content: "OneAnanda";
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5em;
+            color: rgba(0, 0, 0, 0.1);
+            white-space: nowrap;
+            z-index: 1000;
+            pointer-events: none;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
