@@ -11,8 +11,7 @@ Welcome to the **Software Architecture QA** repository! This project is designed
 - [Performance Optimization](#performance-optimization)
 - [Common Scenarios](#common-scenarios)
 - [Q&A Section](#qa-section)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
