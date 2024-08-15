@@ -1,6 +1,6 @@
 # Interface-Driven Development - IDD
 
-`**Interface-Driven Development - IDD**` is a Software development design approach that emphasis on using interfaces to define contracts or boundaries between different components of the system.
+### `Interface-Driven Development - IDD` is a Software development design approach that emphasis on using interfaces to define contracts or boundaries between different components of the system.
 
 The principle is, the components should interact using well defined interfaces which leads to 
 
