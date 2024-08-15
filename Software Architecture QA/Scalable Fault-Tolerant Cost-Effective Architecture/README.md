@@ -42,7 +42,20 @@ This is to direct traffic to the nearest regional data center, ensuring low late
 
 Break down the application into microservices, each responsible for a specific business function (e.g., user management, product catalog, payment processing). This allows independent scaling and easier management.
 
+**Containerization and Orchestration:** 
 
+Use Docker for containerization and Kubernetes (or AWS EKS/Azure AKS) for orchestrating the microservices. This provides portability and efficient resource usage.Containerization and Orchestration: Use Docker for containerization and Kubernetes (or AWS EKS/Azure AKS) for orchestrating the microservices. This provides portability and efficient resource usage.
+
+**Data Storage Options:**
+
+- Relational Database: 
+Use a distributed database like Amazon Aurora Global Database or Google Cloud Spanner for transactional data, ensuring global consistency with multi-region replication.
+- NoSQL Database: 
+Implement a NoSQL database like DynamoDB or Cosmos DB for handling user sessions, and other high-velocity data. Ensure that data is replicated across regions.
+- Cache Layer: 
+Use a distributed cache like Redis or Memcached to store frequently accessed and infrequently updated data, reducing load on the databases and improving response times.
+
+Example: User session data, static pages, product catalog information
 
 
 
