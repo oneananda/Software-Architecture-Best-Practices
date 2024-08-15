@@ -61,3 +61,10 @@ Example: `User session data, Static pages, Product catalog information`
 
 Use a CDN like Amazon CloudFront or Azure CDN to serve static content (e.g., images, CSS, JS) closer to the user, reducing latency.
 
+**Event-Driven Architecture:** 
+
+Implement an event-driven model using a message broker like AWS SQS/SNS, Azure Service Bus, or Kafka for asynchronous communication between microservices, improving scalability and decoupling services.
+
+**Auto-scaling:** 
+
+Set up auto-scaling policies for both the application layer and the database to automatically adjust resources based on traffic and usage patterns.
