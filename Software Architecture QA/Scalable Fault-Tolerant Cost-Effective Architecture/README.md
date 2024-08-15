@@ -68,3 +68,4 @@ Implement an event-driven model using a message broker like AWS SQS/SNS, Azure S
 **Auto-scaling:** 
 
 Set up auto-scaling policies for both the application layer and the database to automatically adjust resources based on traffic and usage patterns.
+
