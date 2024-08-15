@@ -2,7 +2,7 @@
 
 #### `Interface-Driven Development - IDD` is a Software development design approach that emphasis on using interfaces to define contracts or boundaries between different components of the system.
 
-The principle is, the components should interact using well defined interfaces which leads to 
+The principle is, the components should interact each other using well defined interfaces which leads to 
 
 - Modularity
 - Flexiblity
@@ -47,4 +47,41 @@ This means that while the interface guarantees that the method `Print()` is avai
 _The interface only ensures the method signature (i.e., the name, return type, and parameters) but has no control over the actual code inside the method._
 
 
+### Decoupling
+
+IDD encourages decoupling between components, Since components interact through interfaces, they don’t need to know about each other's concrete implementations. This reduces dependencies and allows for easier changes and maintenance.
+
+But there is a catch here too
+
+Using decoupling may lead to 
+
+- Over-Decoupling
+
+`Over-decoupling` can lead to a situation where the system becomes excessively fragmented. This means introducing too many layers or abstractions between components can make the system harder to understand and navigate. It can also introduce unnecessary complexity without significant benefits.
+
+**Scenario:** Suppose you have a simple application that reads and writes user data to a database. To achieve maximum decoupling, you create separate classes and interfaces for every tiny aspect of the application: one class for data access, one for validation, one for transformation, and so on.
+
+```
+public interface IUserDataAccess
+{
+    void SaveUser(User user);
+}
+
+public class UserDataAccess : IUserDataAccess
+{
+    public void SaveUser(User user) { /* Save logic */ }
+}
+
+public interface IUserValidator
+{
+    bool Validate(User user);
+}
+
+public class UserValidator : IUserValidator
+{
+    public bool Validate(User user) { /* Validation logic */ }
+}
+```
+
+_Problem: Managing and understanding the interactions between these highly decoupled components can become cumbersome, especially for a small application where simpler designs might be more appropriate._
 
