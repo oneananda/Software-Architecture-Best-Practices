@@ -55,7 +55,9 @@ Implement a NoSQL database like DynamoDB or Cosmos DB for handling user sessions
 - Cache Layer: 
 Use a distributed cache like Redis or Memcached to store frequently accessed and infrequently updated data, reducing load on the databases and improving response times.
 
-Example: User session data, static pages, product catalog information
+Example: `User session data, Static pages, Product catalog information`
 
+**Content Delivery Network (CDN):** 
 
+Use a CDN like Amazon CloudFront or Azure CDN to serve static content (e.g., images, CSS, JS) closer to the user, reducing latency.
 
