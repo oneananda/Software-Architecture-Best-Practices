@@ -28,10 +28,19 @@ Key components and technologies
 - Azure Cloud
 - Google Cloud
 
+Please check in the following comparision table for detailed analysis : https://github.com/oneananda/Software-Architecture-Best-Practices/blob/main/Software%20Architecture%20QA/Scalable%20Fault-Tolerant%20Cost-Effective%20Architecture/Cloud%20Services%20and%20Key%20Components%20Comparison.jpeg
+
 **Load Balancing:** Deploy any load balancing services
 
 - AWS Global Accelerator
 - Azure Front Door
+- Google Cloud Global LoadBalancer
+
+This is to direct traffic to the nearest regional data center, ensuring low latency and high availability.
+
+**Microservices Architecture:** (Optional)
+
+Break down the application into microservices, each responsible for a specific business function (e.g., user management, product catalog, payment processing). This allows independent scaling and easier management.
 
 
 
