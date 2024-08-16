@@ -92,3 +92,24 @@ Overusing interfaces can lead to a proliferation of small, fine-grained interfac
 ### Difficulty in Testing
 
 While interfaces make mocking easier, they can also complicate testing if not used properly. For example, a test might need to deal with multiple interfaces and their implementations, increasing the setup complexity for unit tests.
+
+### Loss of Cohesion
+
+Scenario: You have a class that initially managed user-related functionality, but you split it into several smaller classes, each handling a specific aspect (e.g., user creation, user update, user deletion), which leads to a greater confusion of original purpose.
+
+```
+public class UserCreationService
+{
+    public void CreateUser(User user) { /* Create logic */ }
+}
+
+public class UserUpdateService
+{
+    public void UpdateUser(User user) { /* Update logic */ }
+}
+
+public class UserDeletionService
+{
+    public void DeleteUser(User user) { /* Delete logic */ }
+}
+```
