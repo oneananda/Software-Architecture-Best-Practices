@@ -96,38 +96,40 @@ These are the general considerations for the above question, we can customize ba
 
 How can you customize the same requirement based on AWS Services ?
 
-1. Compute Layer
+### AWS Architecture Layers
 
-Amazon EC2 (Elastic Compute Cloud): Central to the architecture, providing scalable compute capacity.
-Amazon ECS / EKS (Elastic Container Service / Elastic Kubernetes Service): For containerized workloads, supporting both Docker containers and Kubernetes orchestration.
-AWS Lambda: For serverless computing, handling event-driven processes without managing servers.
+## 1. Compute Layer
 
-2. Storage Layer
+- **Amazon EC2 (Elastic Compute Cloud):** Central to the architecture, providing scalable compute capacity.
+- **Amazon ECS / EKS (Elastic Container Service / Elastic Kubernetes Service):** For containerized workloads, supporting both Docker containers and Kubernetes orchestration.
+- **AWS Lambda:** For serverless computing, handling event-driven processes without managing servers.
 
-Amazon S3 (Simple Storage Service): Object storage for storing and retrieving any amount of data, often used for backups, archival, and serving static content.
-Amazon EBS (Elastic Block Store): Block storage volumes attached to EC2 instances for persistent storage needs.
-Amazon EFS (Elastic File System): Managed file storage for shared access across multiple instances.
+## 2. Storage Layer
 
-3. Database Layer
+- **Amazon S3 (Simple Storage Service):** Object storage for storing and retrieving any amount of data, often used for backups, archival, and serving static content.
+- **Amazon EBS (Elastic Block Store):** Block storage volumes attached to EC2 instances for persistent storage needs.
+- **Amazon EFS (Elastic File System):** Managed file storage for shared access across multiple instances.
 
-Amazon RDS (Relational Database Service): For relational databases such as MySQL, PostgreSQL, Oracle, and SQL Server, managed by AWS.
-Amazon DynamoDB: A fully managed NoSQL database service for high-performance applications.
-Amazon Redshift: Data warehousing service for large-scale data analytics.
+## 3. Database Layer
 
-4. Networking Layer
+- **Amazon RDS (Relational Database Service):** For relational databases such as MySQL, PostgreSQL, Oracle, and SQL Server, managed by AWS.
+- **Amazon DynamoDB:** A fully managed NoSQL database service for high-performance applications.
+- **Amazon Redshift:** Data warehousing service for large-scale data analytics.
 
-Amazon VPC (Virtual Private Cloud): Core networking service that enables you to create a logically isolated section of the AWS cloud.
-Amazon Route 53: DNS web service for domain name management.
-Amazon CloudFront: Content Delivery Network (CDN) for delivering content with low latency.
-Elastic Load Balancing (ELB): Distributes incoming traffic across multiple targets (EC2 instances, containers, IP addresses).
+## 4. Networking Layer
 
-5. Security and Identity Layer
+- **Amazon VPC (Virtual Private Cloud):** Core networking service that enables you to create a logically isolated section of the AWS cloud.
+- **Amazon Route 53:** DNS web service for domain name management.
+- **Amazon CloudFront:** Content Delivery Network (CDN) for delivering content with low latency.
+- **Elastic Load Balancing (ELB):** Distributes incoming traffic across multiple targets (EC2 instances, containers, IP addresses).
 
-AWS IAM (Identity and Access Management): For managing users, groups, and roles with defined access policies.
-AWS KMS (Key Management Service): For managing encryption keys across your services.
-AWS WAF (Web Application Firewall): Protects your web applications from common web exploits.
+## 5. Security and Identity Layer
 
-6. Monitoring and Logging Layer
+- **AWS IAM (Identity and Access Management):** For managing users, groups, and roles with defined access policies.
+- **AWS KMS (Key Management Service):** For managing encryption keys across your services.
+- **AWS WAF (Web Application Firewall):** Protects your web applications from common web exploits.
 
-Amazon CloudWatch: Monitoring service for real-time operational data, such as logs and metrics.
-AWS CloudTrail: Provides governance, compliance, and operational and risk auditing of your AWS account.
+## 6. Monitoring and Logging Layer
+
+- **Amazon CloudWatch:** Monitoring service for real-time operational data, such as logs and metrics.
+- **AWS CloudTrail:** Provides governance, compliance, and operational and risk auditing of your AWS account.
