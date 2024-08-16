@@ -69,3 +69,26 @@ Implement an event-driven model using a message broker like AWS SQS/SNS, Azure S
 
 Set up auto-scaling policies for both the application layer and the database to automatically adjust resources based on traffic and usage patterns.
 
+**Security:**
+
+- Encryption : Implement E2E encryption for data in transit (eg TLS) and in the rest (AES-256)
+- IAM Policies: Enforce strict identity and access management policies, using least privilege principles.
+- WAF and DDoS Protection: Use Web Application Firewalls (e.g., AWS WAF, Azure WAF) and DDoS protection (e.g., AWS Shield, Azure DDoS Protection) to secure the application against attacks.
+
+**Monitoring and Logging:**
+
+- Centralized Logging: Use a centralized logging system like ELK Stack (Elasticsearch, Logstash, Kibana) or Azure Monitor to collect and analyze logs from all microservices.
+- Monitoring: Implement monitoring tools like Prometheus, Grafana, or AWS CloudWatch for real-time performance tracking and alerting.
+
+**Disaster Recovery and Backup:**
+
+- Multi-Region Deployment: Setup the services in multi region setup to get the failover scenario and DR (Disaster Recovery)
+- Backups: Regularly back up databases and critical data using automated backup services (e.g., AWS Backup, Azure Backup) and store them in a separate region.
+
+**Cost Optimization:**
+
+- Reserved Instances and Spot Instances: Use a mix of on-demand, reserved, and spot instances to optimize costs based on predictable and variable workloads.
+- Serverless Services: Utilize serverless technologies (e.g., AWS Lambda, Azure Functions) where applicable to reduce operational overhead and costs.
+
+These are the general considerations for the above question, we can customize based on our needs if any specific cloud provider is preffered.
+
