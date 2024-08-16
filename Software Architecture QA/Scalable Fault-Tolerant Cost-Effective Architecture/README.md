@@ -141,13 +141,13 @@ How can you customize the same requirement based on Azure Cloud ?
 **Global traffic management**
 
 -**Azure Front Door** : This service will do the global load balancing and routing traffic to the nearest data center, provides
-	- SSL Offloading : Outsourcing the encryption to a separate service
-	- Caching : Stores frequently used data in a nearest accesible place
-	- Fast fail over : Quickly fail over when needed
-	- Improves High availablity
-	- Reduces latency
+   - SSL Offloading : Outsourcing the encryption to a separate service
+   - Caching : Stores frequently used data in a nearest accesible place
+   - Fast fail over : Quickly fail over when needed
+   - Improves High availablity
+   - Reduces latency
 
 -**Compute Layer** :
-	- Azure VMs : Use Azure Virtual Machines.
-	- Azure VMSS : Azure Virtual Machine Scale Sets, a set of VMs for non-containerized workloads, leverage VMSS to automatically scale the number of VMs based on demand.
-	- AKS: Azure Kubernetes Service, use AKS for containerised environment and use it for orchestracting containers, especially for microservices architecture, this will be used to deploy, manage and scale applications easily across different regions.
+   - Azure VMs : Use Azure Virtual Machines.
+   - Azure VMSS : Azure Virtual Machine Scale Sets, a set of VMs for non-containerized workloads, leverage VMSS to automatically scale the number of VMs based on demand.
+   - AKS: Azure Kubernetes Service, use AKS for containerised environment and use it for orchestracting containers, especially for microservices architecture, this will be used to deploy, manage and scale applications easily across different regions.
