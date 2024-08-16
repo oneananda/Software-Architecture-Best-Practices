@@ -146,3 +146,8 @@ How can you customize the same requirement based on Azure Cloud ?
 	- Fast fail over : Quickly fail over when needed
 	- Improves High availablity
 	- Reduces latency
+
+-**Compute Layer** :
+	- Azure VMs : Use Azure Virtual Machines.
+	- Azure VMSS : Azure Virtual Machine Scale Sets, a set of VMs for non-containerized workloads, leverage VMSS to automatically scale the number of VMs based on demand.
+	- AKS: Azure Kubernetes Service, use AKS for containerised environment and use it for orchestracting containers, especially for microservices architecture, this will be used to deploy, manage and scale applications easily across different regions.
