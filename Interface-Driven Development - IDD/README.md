@@ -15,7 +15,7 @@ The principle is, the components should interact each other using well defined i
 
 An interface defines a contract and the classes which implement those should comply with the same,
 
-That means if an interface is having a method called Print() in C# like this
+That means if an interface is having a method called `Print()` in C# like this
 
 ```
 public interface IPrint
@@ -85,3 +85,10 @@ public class UserValidator : IUserValidator
 
 _Problem: Managing and understanding the interactions between these highly decoupled components can become cumbersome, especially for a small application where simpler designs might be more appropriate._
 
+### Interface Proliferation
+
+Overusing interfaces can lead to a proliferation of small, fine-grained interfaces. This can make the system harder to manage and understand, and it may lead to a situation where you have many interfaces with single methods or tightly focused responsibilities.
+
+### Difficulty in Testing
+
+While interfaces make mocking easier, they can also complicate testing if not used properly. For example, a test might need to deal with multiple interfaces and their implementations, increasing the setup complexity for unit tests.
