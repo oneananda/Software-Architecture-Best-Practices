@@ -133,3 +133,16 @@ How can you customize the same requirement based on AWS Services ?
 
 - **Amazon CloudWatch:** Monitoring service for real-time operational data, such as logs and metrics.
 - **AWS CloudTrail:** Provides governance, compliance, and operational and risk auditing of your AWS account.
+
+## Question 
+
+How can you customize the same requirement based on Azure Cloud ?
+
+**Global traffic management**
+
+-**Azure Front Door** : This service will do the global load balancing and routing traffic to the nearest data center, provides
+	- SSL Offloading : Outsourcing the encryption to a separate service
+	- Caching : Stores frequently used data in a nearest accesible place
+	- Fast fail over : Quickly fail over when needed
+	- Improves High availablity
+	- Reduces latency
