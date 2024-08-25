@@ -4,11 +4,11 @@ This is a process of triggering auto builds and testing whenever any checkins / 
 
 ## Key things
 
-- **Frequent Integration:**
-- **Automated Builds:**
-- **Automated Testing:**
-- **Immediate Feedback:**
-- **Deployment Readiness:** 
+- **Frequent Integration:** Platform to organize frequent and parallel commits
+- **Automated Builds:** Automatically builds the latest code
+- **Automated Testing:** Once build is done, automatically testing the changes
+- **Immediate Feedback:** Any point of failure, the information is sent to multiple stake holders
+- **Deployment Readiness:** Following this, the application is ready for deployment to higher environments most of the time
 
 ## **CI Workflow:**
 
@@ -22,6 +22,7 @@ This is a process of triggering auto builds and testing whenever any checkins / 
 ## Popular CI Tools:
 
 - Jenkins
+- AWS CodeBuild
 - GitHub Actions
 - CircleCI
 - Travis CI
