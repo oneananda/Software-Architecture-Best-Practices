@@ -29,4 +29,27 @@ This is a process of triggering auto builds and testing whenever any checkins / 
 - Azure Pipelines
 - GitLab CI/CD
 
+## Comparision of Popular CI Tools:
+
+| Feature                     | Azure Pipelines               | GitHub Actions                | CircleCI                      | Travis CI                    | GitLab CI/CD                 | Jenkins X                     | AWS CodeBuild                 |
+|-----------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|
+| **Supported Platforms**     | Windows, Linux, macOS         | Windows, Linux, macOS         | Linux, macOS                  | Linux, macOS, Windows (via VMs) | Windows, Linux, macOS       | Kubernetes-native             | Linux, Windows                |
+| **Parallel Builds**         | Yes                           | Yes                           | Yes                           | Yes                          | Yes                          | Yes                           | Yes                           |
+| **Pricing**                 | Free tier available, pay-as-you-go for additional usage | Free tier with limits, Pay-as-you-go for additional usage | Free tier available, pay-as-you-go for additional usage | Free tier with limits, Paid plans available | Free tier with limits, Paid plans available | Open source, Pay-as-you-go for cloud hosting | Pay-as-you-go, billed by the minute |
+| **Integrations**            | Azure DevOps, GitHub, Bitbucket | GitHub, Slack, Docker, etc.   | GitHub, Bitbucket, Slack, Docker, etc. | GitHub, Bitbucket, Slack, Docker, etc. | GitLab, Slack, Docker, etc.  | GitHub, Bitbucket, Slack, Docker, etc. | AWS services, GitHub, Bitbucket, etc. |
+| **Custom Pipelines**        | YAML-based                    | YAML-based                    | YAML-based                    | YAML or JSON                  | YAML-based                    | YAML-based                     | YAML-based (buildspec.yml)    |
+| **Docker Support**          | Native support                | Native support                | Native support                | Native support               | Native support               | Native support                | Native support                |
+| **Deployment Options**      | Azure, AWS, GCP, On-premise   | Azure, AWS, GCP, On-premise   | AWS, GCP, On-premise          | AWS, GCP, On-premise         | Azure, AWS, GCP, On-premise  | Azure, AWS, GCP, On-premise   | AWS, On-premise               |
+| **Security & Compliance**   | Enterprise-grade security, SOC 2, GDPR | Enterprise-grade security, SOC 2, GDPR | SOC 2, GDPR                   | SOC 2, GDPR                   | SOC 2, GDPR                   | SOC 2, GDPR                   | SOC 2, PCI DSS, HIPAA, GDPR   |
+| **Ease of Use**             | Easy to moderate              | Easy                          | Easy                          | Easy                          | Easy                          | Moderate to complex           | Easy                          |
+| **Pipeline Visualization**  | Yes, intuitive UI             | Yes, with a UI                | Yes, with a UI                | Yes, with a UI               | Yes, with a UI               | Yes, with a UI                | Yes, with CloudWatch Metrics  |
+| **Community & Support**     | Strong community, Microsoft support | Strong community, GitHub support | Strong community, Community and Paid support | Strong community, Community and Paid support | Strong community, GitLab support | Strong community, Community and Paid support | AWS Support, Documentation, and Community |
+| **Caching**                 | Built-in                      | Built-in                      | Built-in                      | Built-in                      | Built-in                      | Built-in                      | Built-in                      |
+| **Artifact Storage**        | Built-in                      | Built-in                      | Built-in                      | Built-in                      | Built-in                      | Built-in                      | S3, ECR                       |
+| **Kubernetes Integration**  | Limited, needs customization  | Limited, needs customization  | Limited, needs customization  | Limited, needs customization | Limited, needs customization | Native support                | Limited, needs customization  |
+| **Auto-scaling**            | Yes, based on usage           | Yes, based on usage           | Yes, based on usage           | Yes, based on usage           | Yes, based on usage           | Yes, based on Kubernetes      | Yes, scales automatically     |
+| **Configuration as Code**   | Yes, YAML-based               | Yes, YAML-based               | Yes, YAML-based               | Yes, YAML-based               | Yes, YAML-based               | Yes, YAML-based               | Yes, YAML-based               |
+| **Hosted Runners**          | Yes, with multiple OS options | Yes, with multiple OS options | Yes, Linux-based              | Yes, with multiple OS options | Yes, with multiple OS options | Yes, Kubernetes-based         | No (runs in managed containers) |
+ 
+
 _CI is a fundamental practice in modern software development, especially in agile environments, where rapid and reliable delivery of software is crucial._
