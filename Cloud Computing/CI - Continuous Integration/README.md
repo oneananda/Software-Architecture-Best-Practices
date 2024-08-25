@@ -19,3 +19,13 @@ This is a process of triggering auto builds and testing whenever any checkins / 
 - Feedback: The CI server provides feedback to the developer, indicating whether the build and tests were successful or if there were any issues.
 - Fixing Issues: If issues are found, the developer fixes them and recommits the code, repeating the process.
 
+## Popular CI Tools:
+
+- Jenkins
+- GitHub Actions
+- CircleCI
+- Travis CI
+- Azure Pipelines
+- GitLab CI/CD
+
+_CI is a fundamental practice in modern software development, especially in agile environments, where rapid and reliable delivery of software is crucial._
