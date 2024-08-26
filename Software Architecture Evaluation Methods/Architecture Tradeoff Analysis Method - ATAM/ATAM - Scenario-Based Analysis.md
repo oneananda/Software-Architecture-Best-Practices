@@ -14,6 +14,8 @@ To evaluate how the architecture scales under high traffic and whether it can ma
 
 Network bandwidth, server capacity, load balancing mechanisms, and database performance.
 
+In case of cloud, we need to look into Auto-Scaling capacity
+
 ---
 
 ## Security Scenarios
