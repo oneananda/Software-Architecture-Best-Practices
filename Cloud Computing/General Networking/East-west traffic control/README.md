@@ -4,7 +4,7 @@ This refers to a process of the network happening inside a data center, inside t
 
 ### Use cases
 
-- Communication between VNet - Peering
+- Communication between VNet - (VNet Peering)
 - Communication within a VNet
 - Communication between subnets
 - Communication within a subnet
