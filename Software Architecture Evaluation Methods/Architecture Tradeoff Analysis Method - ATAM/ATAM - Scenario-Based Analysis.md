@@ -72,3 +72,19 @@ The system must integrate seamlessly with a third-party API for payment processi
 The system must scale from 100 users to 100,000 users within a short time frame due to a marketing campaign.
 
 ---
+
+## Maintainability Scenarios
+
+### Scenario: 
+
+A bug is found in the code, and a fix needs to be deployed without impacting other parts of the system.
+
+---
+
+## Extensibility Scenarios
+
+### Scenario: 
+
+A new feature needs to be added to the system to support a new business requirement.
+
+---
