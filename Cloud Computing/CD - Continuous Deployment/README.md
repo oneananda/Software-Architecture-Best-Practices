@@ -2,6 +2,11 @@
 
 This is a process of triggering automatic deployment to the various environments and trigger the automated testing.
 
+## Key things
+
+**Rollback Capabilities**
+**Integration with CI**
+**Monitoring & Alerts**  
 
 
 ### Detailed comparision of Continuous Deployment (CD) services
