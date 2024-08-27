@@ -40,3 +40,35 @@ A new payment gateway needs to be integrated into the system without significant
 The system experiences a hardware failure in one of its primary servers.
 
 ---
+
+## Usability Scenarios
+
+### Scenario: 
+
+A new user must be able to navigate and complete a transaction within 5 minutes of using the system for the first time.
+
+---
+
+## Reliability Scenarios
+
+### Scenario: 
+
+The system must recover automatically within 5 minutes after an unexpected crash.
+
+---
+
+## Interoperability Scenarios
+
+### Scenario: 
+
+The system must integrate seamlessly with a third-party API for payment processing.
+
+---
+
+## Scalability Scenarios
+
+### Scenario: 
+
+The system must scale from 100 users to 100,000 users within a short time frame due to a marketing campaign.
+
+---
