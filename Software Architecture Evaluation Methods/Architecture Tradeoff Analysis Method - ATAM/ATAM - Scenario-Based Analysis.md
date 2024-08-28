@@ -36,12 +36,21 @@ Authentication mechanisms, encryption methods, role-based access control, and lo
 
 A new payment gateway needs to be integrated into the system without significant downtime.
 
+### Considerations: 
+
+Modularity, code dependencies, service abstraction layers, and testing strategies.
+
 ---
+
 ## Availability Scenarios
 
 ### Scenario: 
 
 The system experiences a hardware failure in one of its primary servers.
+
+### Considerations: 
+
+Redundancy, failover mechanisms, and disaster recovery plans.
 
 ---
 
@@ -50,6 +59,10 @@ The system experiences a hardware failure in one of its primary servers.
 ### Scenario: 
 
 A new user must be able to navigate and complete a transaction within 5 minutes of using the system for the first time.
+
+### Considerations: 
+
+User interface design, user experience flow, and accessibility features.
 
 ---
 
