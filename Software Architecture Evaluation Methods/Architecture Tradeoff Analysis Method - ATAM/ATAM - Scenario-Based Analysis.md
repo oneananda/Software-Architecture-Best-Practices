@@ -24,6 +24,10 @@ In case of cloud, we need to look into Auto-Scaling capacity
 
 An unauthorized user attempts to access confidential data within the system.
 
+### Considerations: 
+
+Authentication mechanisms, encryption methods, role-based access control, and logging/auditing features.
+
 ---
 
 ## Modifiability Scenarios
