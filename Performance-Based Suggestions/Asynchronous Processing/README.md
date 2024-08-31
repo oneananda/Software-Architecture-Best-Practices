@@ -66,7 +66,7 @@ Ready to dive in? Here’s how you can get started with asynchronous processing in
 
 ## Examples
 
-To help you along the way, we’ve included some examples in the `examples` folder. Check them out for hands-on demos of different asynchronous techniques:
+To help you along the way, we’ve included some examples in the `Examples` folder. Check them out for hands-on demos of different asynchronous techniques:
 
 - **Message Queue Example:** How to use RabbitMQ with .NET Core
 - **Event-Driven Architecture:** Setting up microservices communication with Kafka
