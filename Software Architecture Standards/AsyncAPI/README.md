@@ -14,3 +14,9 @@ AsyncAPI is an open-source initiative that provides a specification and set of t
 It defines how messages are published and consumed, along with details about message payloads, servers, channels, and operations.
 
 **Documentation:** Just like OpenAPI, AsyncAPI provides a format to generate interactive documentation. This makes it easier for developers to understand and interact with event-driven services.
+
+**Code Generation:** AsyncAPI supports code generation for different languages and frameworks, which in turn helps in quickly building client and server stubs, message payloads, and other related components. This accelerates the development process by providing ready-to-use templates.
+
+**Validation:** It helps in validating the structure of messages against the defined schema, ensuring that the messages being sent and received adhere to the expected format.
+
+
