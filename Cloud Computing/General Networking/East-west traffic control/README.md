@@ -11,7 +11,7 @@ This refers to a process of the network happening inside a data center, inside t
 
 ### Implementation 
 
-- **Use Azure Firewall:** We can configfure even for internall based on network and application based rules
+- **Use Azure Firewall:** We can configfure even for internal settings based on network and application based rules.
 - **Use Network Security Groups (NSG):** Azure NSGs can also be used to filter east-west traffic by controlling which resources can communicate with each other within the virtual network.
 
 ## Scenarios
