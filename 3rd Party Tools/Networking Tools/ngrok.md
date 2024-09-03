@@ -2,7 +2,7 @@
 
 ## Overview
 
-ngrok is a handy tool that lets you `expose your local server to the internet` in a secure and easy way. If you're working on a project and need to share it with someone outside your home or office network, or if you want to test things like webhooks, ngrok is your go-to solution. It creates a secure tunnel from your computer to the web, making your local apps accessible from anywhere.
+ngrok is a handy tool that lets you to `expose your local server to the internet` in a secure and easy way. If you're working on a project and need to share it with someone outside your home or office network, or if you want to test things like webhooks, ngrok is your go-to solution. It creates a secure tunnel from your computer to the web, making your local apps accessible from anywhere.
 
 ## Features
 
@@ -27,8 +27,11 @@ ngrok is a handy tool that lets you `expose your local server to the internet` i
 ## Benefits
 
 **Super Easy to Use:** You don’t need to be a tech wizard to get started with ngrok. A single command is all it takes to go live.
+
 **Instant HTTPS**: ngrok automatically handles all the SSL certificate stuff, so you get a secure connection out of the box.
+
 **Live Traffic Insights:** With ngrok’s web interface, you can see what’s happening with your server in real-time, making it easier to debug.
+
 **Versatile:** Whether you need to test a webhook, show your app to someone remotely, or just need a quick way to make your local work accessible, ngrok makes it all effortless.
 
 ## Advantages Over Traditional Methods
