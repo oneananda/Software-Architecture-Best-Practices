@@ -22,7 +22,7 @@ ngrok is a handy tool that lets you to `expose your local server to the internet
    ```bash
    ngrok http 3000
    ```
-4. Inspect Traffic: ngrok has a super useful web interface you can check out at http://127.0.0.1:4040, where you can see every request that hits your server. It’s like a CCTV for your traffic!
+4. **Inspect Traffic:** ngrok has a super useful web interface you can check out at http://127.0.0.1:4040, where you can see every request that hits your server. It’s like a CCTV for your traffic!
 
 ## Benefits
 
