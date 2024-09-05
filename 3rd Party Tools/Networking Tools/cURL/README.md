@@ -70,3 +70,14 @@ curl -L http://example.com/redirect
 ```
 
 The -L flag follows redirects.
+
+### Advanced Examples
+
+- Using cURL with Cookies:
+
+```
+curl -c cookies.txt -b cookies.txt http://example.com
+```
+
+The -c option saves cookies to a file, and -b sends them with the request.
+
