@@ -9,7 +9,7 @@ cURL (Client URL) is a command-line tool and library for transferring data with 
 - **Customization**: cURL offers numerous options to customize requests, including setting headers, cookies, and authentication methods.
 - **Automation**: It can be used in scripts and automation tasks, making it a powerful tool for developers and system administrators.
 
-## Basic Usage
+### Basic Usage
 
 - To fetch the content of a URL:
 
@@ -37,3 +37,26 @@ Note: The -O flag saves the file with its original name.
 curl http://example.com -o output.html
 ```
 
+### Intermediate Examples
+
+- Basic POST Request:
+
+```
+curl -X POST http://example.com/api/resource -d "param1=value1&param2=value2"
+```
+
+The -X option specifies the HTTP method, and -d sends form data.
+
+- POST Request with JSON Data:
+
+```
+curl -X POST http://example.com/api/resource \
+-H "Content-Type: application/json" \
+-d '{"key1":"value1", "key2":"value2"}'
+```
+
+- Sending Headers:
+
+```
+curl -H "Authorization: Bearer token123" http://example.com/api/resource
+```
