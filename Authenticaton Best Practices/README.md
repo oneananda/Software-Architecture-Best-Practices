@@ -1,1 +1,0 @@
-# Authenticaton Best Practices
