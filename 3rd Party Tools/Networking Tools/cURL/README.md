@@ -31,4 +31,9 @@ curl -O http://example.com/file.zip
 
 Note: The -O flag saves the file with its original name.
 
+- Save Output to a File:
+
+```
+curl http://example.com -o output.html
+```
 
