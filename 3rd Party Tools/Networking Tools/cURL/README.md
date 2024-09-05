@@ -63,3 +63,10 @@ curl -H "Authorization: Bearer token123" http://example.com/api/resource
 
 This adds an Authorization header to the request.
 
+- Handling Redirects:
+
+```
+curl -L http://example.com/redirect
+```
+
+The -L flag follows redirects.
