@@ -60,3 +60,6 @@ curl -X POST http://example.com/api/resource \
 ```
 curl -H "Authorization: Bearer token123" http://example.com/api/resource
 ```
+
+This adds an Authorization header to the request.
+
