@@ -11,10 +11,24 @@ cURL (Client URL) is a command-line tool and library for transferring data with 
 
 ## Basic Usage
 
-Fetch a URL
-
-To fetch the content of a URL:
+- To fetch the content of a URL:
 
 ```
 curl https://example.com
 ```
+
+- GET Request with Query Parameters:
+
+```
+curl "http://example.com/search?query=example"
+```
+
+- Download a File:
+
+```
+curl -O http://example.com/file.zip
+```
+
+Note: The -O flag saves the file with its original name.
+
+
