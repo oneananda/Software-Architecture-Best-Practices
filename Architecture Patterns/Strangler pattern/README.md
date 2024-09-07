@@ -64,9 +64,17 @@ You have a monolithic e-commerce application with an outdated payment module. It
 3. **Set Up Proxy:** Implement an API Gateway to route payment requests based on a flag or user type.
 4. **Migrate Gradually:** Start directing payments for new orders through the new microservice.
 5. **Test and Monitor:** Use metrics and logs to compare performance between the old and new systems.
-6. **Switch Over:** Once stable, move all or sizable traffic to the new payment microservice.
+6. **Switch Over:** Once stable, move all or sizable traffic called [Canary Release](#canary-release) to the new payment microservice.
 7. **Retire the Old Module:** Decommission the old payment code.
 8. **Iterate:** Continue with other parts of the monolith, like inventory management or user profiles.
+
+### Canary Release / Canary Deployment
+
+This approach involves deploying new features or versions to a small, controlled subset of users or traffic first.
+
+The term "canary" comes from the practice of using canaries in coal mines to detect toxic gases—similarly, in software deployments, this method helps detect issues in the new module without impacting the entire user base.
+
+It allows teams to test the new module under real-world conditions with minimal risk. If issues are detected, the deployment can be rolled back or adjusted before the changes are rolled out more widely.
 
 ## Benefits
 
