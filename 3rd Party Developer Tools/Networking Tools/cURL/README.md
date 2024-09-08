@@ -109,3 +109,21 @@ curl -m 10 http://example.com
 The -m option sets a maximum time in seconds for the request.
 
 
+- Verbose Output for Debugging
+
+```
+curl -v http://example.com
+```
+
+The -v option makes cURL provide detailed information about the request and response, which is useful for debugging.
+
+- Sending Data with Custom Methods
+
+```
+curl -X PUT http://example.com/api/resource/1 \
+-H "Content-Type: application/json" \
+-d '{"name": "Updated Name"}'
+```
+
+`PUT` method to update a resource.
+
