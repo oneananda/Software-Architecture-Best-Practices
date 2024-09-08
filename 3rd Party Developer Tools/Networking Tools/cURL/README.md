@@ -97,3 +97,15 @@ curl -X GET http://example.com \
 -H "Authorization: Bearer token123" \
 -H "Accept: application/json"
 ```
+
+Add multiple headers by repeating the -H flag.
+
+- Handling Timeouts
+
+```
+curl -m 10 http://example.com
+```
+
+The -m option sets a maximum time in seconds for the request.
+
+
