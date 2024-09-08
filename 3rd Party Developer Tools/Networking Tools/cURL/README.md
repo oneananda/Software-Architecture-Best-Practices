@@ -81,3 +81,19 @@ curl -c cookies.txt -b cookies.txt http://example.com
 
 The -c option saves cookies to a file, and -b sends them with the request.
 
+- Upload a File
+
+```
+curl -X POST http://example.com/upload \
+-F "file=@/path/to/file.txt"
+```
+
+The -F flag is used to upload files with multipart/form-data.
+
+- Sending Multiple Headers
+
+```
+curl -X GET http://example.com \
+-H "Authorization: Bearer token123" \
+-H "Accept: application/json"
+```
