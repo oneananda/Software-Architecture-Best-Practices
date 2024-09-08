@@ -132,3 +132,11 @@ curl -X PUT http://example.com/api/resource/1 \
 ```
 curl -A "Mozilla/5.0" http://example.com
 ```
+
+- Rate Limiting
+
+```
+curl --limit-rate 100K http://example.com
+```
+
+Limits the request's download speed to 100KB/s.
