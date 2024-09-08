@@ -7,3 +7,8 @@ We will jump to best practices that will help keep your APIs and applications sa
 ## 1. Use OAuth 2.0 and OpenID Connect
 Leverage OAuth 2.0 for authorization and OpenID Connect for authentication. These standards provide a secure way to authenticate users and authorize access to resources, and they’re widely supported across platforms.
 
+## 2. Use API Keys Carefully
+If you use API keys, treat them like passwords: keep them secret and avoid embedding them in your code. Use them in conjunction with other authentication methods for added security.
+
+## 3. Implement JSON Web Tokens (JWT)
+JWTs are a popular choice for API authentication. Use them to securely transmit information between parties as a JSON object. Make sure to sign tokens with a strong algorithm like `RS256` and validate them properly on the server side.
