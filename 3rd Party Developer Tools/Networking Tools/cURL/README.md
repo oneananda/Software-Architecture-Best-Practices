@@ -140,3 +140,28 @@ curl --limit-rate 100K http://example.com
 ```
 
 Limits the request's download speed to 100KB/s.
+
+- Authentication 
+
+```
+curl -u username:password http://example.com
+```
+
+Please note : This is very basic level authentication, if the username or password contains special characters then we need to escape them and use it.
+
+- Complex Requests with JSON and Headers
+
+```
+curl -X POST http://example.com/api/resource \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer token123" \
+-d '{
+  "name": "New Resource",
+  "settings": {
+    "enabled": true,
+    "threshold": 15
+  }
+}'
+```
+
+Sending complex requests with multiple headers in the POST request.
