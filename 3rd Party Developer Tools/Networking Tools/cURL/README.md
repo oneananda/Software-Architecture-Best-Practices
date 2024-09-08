@@ -127,3 +127,8 @@ curl -X PUT http://example.com/api/resource/1 \
 
 `PUT` method to update a resource.
 
+- Setting User Agent
+
+```
+curl -A "Mozilla/5.0" http://example.com
+```
