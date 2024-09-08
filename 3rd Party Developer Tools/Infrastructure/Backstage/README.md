@@ -2,7 +2,7 @@
 
 ### What is Backstage?
 
-https://backstage.io/
+[Backstage website](https://backstage.io/)
 
 Imagine you're joining a company with lots of different projects, services, and tools. It can feel overwhelming to know where everything is, what each service does, or who to talk to about specific projects. Backstage is like a one-stop shop or a central dashboard that organizes all this information in one place, making it easy for you and your team to find what you need quickly.
 

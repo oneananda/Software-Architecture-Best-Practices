@@ -8,6 +8,12 @@
 
 In simpler terms, ngrok serves as a bridge between your local environment and the external internet, which is especially useful for developers working on webhooks, APIs, or remote application testing. It's commonly used in development, testing, and debugging scenarios where external access to local services is required without the need for complex network configurations.
 
+## Simple Use case
+
+You are fixing a bug in your local, you want the fix to be tested quickly by one of the QA memebers who sits remotely, instead of hosting the fix in any of the environment, you can do the following,
+
+- Create a URL in ngrok and map your locally running site to it
+- Until your local site is running the URL created will be running with all the security aspects implemented
 
 ## Features
 
