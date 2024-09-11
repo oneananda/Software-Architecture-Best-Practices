@@ -13,3 +13,16 @@ A CDN helps improve the speed, security, and reliability of your website by dist
 - **Enhanced Security:** CDNs offer security features such as DDoS protection, Web Application Firewall (WAF), and secure token authentication.
 - **Cost Efficiency:** By offloading traffic to CDN servers, you can reduce bandwidth costs and server load on your origin servers.
 
+## Key players in CDN arena
+
+**Amazon CloudFront (AWS)**
+
+Part of Amazon Web Services, offering seamless integration with other AWS services and a robust global network.
+
+**Microsoft Azure CDN**
+
+Offers multiple CDN options (Verizon, Akamai, Microsoft) with deep integration into Azure services.
+
+**Google Cloud CDN**
+
+Integrated with Google Cloud, providing fast and secure delivery of web content with global edge caching.
