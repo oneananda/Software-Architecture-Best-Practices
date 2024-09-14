@@ -1,6 +1,6 @@
 # SYN Flood Attack
 
-A SYN flood is a type of Denial of Service (DoS) attack that targets the handshake process of the TCP/IP protocol used for establishing a connection between a client and a server. Here’s a detailed explanation of how it works and other related attacks:
+A SYN flood is a type of Denial of Service (DoS) attack that targets the handshake process of the TCP/IP protocol used for establishing a connection between a client and a server. 
 
 A SYN flood attack is like someone repeatedly knocking on your door without any intention of entering, just to keep you busy and prevent you from attending to real visitors.
 
