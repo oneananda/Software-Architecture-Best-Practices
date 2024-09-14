@@ -17,8 +17,8 @@ A SYN flood attack is like someone repeatedly knocking on your door without any 
    - The server keeps waiting for the final “Okay, let’s talk” (ACK) that never comes. It has to keep resources reserved for these half-open connections, which ends up using a lot of its capacity.
 
 3. **Why It’s a Problem:**
-   - **Wasted Resources:** The server gets bogged down with all these unfinished handshakes, using up memory and processing power.
-   - **Unavailable Service:** Legitimate users who actually want to connect can’t get through because the server is too busy dealing with the fake requests.
+   - **Wasted Resources:** (`Resource Exhaustion`) The server gets bogged down with all these unfinished handshakes, using up memory and processing power.
+   - **Unavailable Service:** (`Service Unavailability`) Legitimate users who actually want to connect can’t get through because the server is too busy dealing with the fake requests.
 
 ### How to Protect Against SYN Floods
 
