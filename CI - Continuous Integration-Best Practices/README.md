@@ -29,7 +29,7 @@ This is a process of triggering auto builds and testing whenever any checkins / 
 - Azure Pipelines
 - GitLab CI/CD
 
-## Comparision of Popular CI Tools:
+## Comparison of Popular CI Tools:
 
 | Feature                     | Azure Pipelines               | GitHub Actions                | CircleCI                      | Travis CI                    | GitLab CI/CD                 | Jenkins X                     | AWS CodeBuild                 |
 |-----------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|
