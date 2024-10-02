@@ -23,8 +23,13 @@ This process helps in
 - Automated deployment to production :
 - Post deployment monitoring :
 
-
 ## Popular CD Tools:
+
+- Azure DevOps 
+- GitHub Actions
+- AWS CodePipeline
+- Jenkins
+- GitLab CI/CD
 
 ## Comparision of Popular CD Tools:
 
