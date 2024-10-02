@@ -11,9 +11,18 @@ This process helps in
 
 - Automated Testing : Automated testing will save lot of time and reduce errors
 - Rollback mechanism : In case of any unlikely event, the process is set to revert the changes made to the system, ensuring the robustness of the application.
--
 
 ## **CD Workflow:**
+
+- Code Commit:
+- Automated Build :
+- Automated testing :
+- Automated packaging :
+- Deploy to staging :
+- Pre-prodution verification :
+- Automated deployment to production :
+- Post deployment monitoring :
+
 
 ## Popular CD Tools:
 
