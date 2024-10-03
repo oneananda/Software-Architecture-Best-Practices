@@ -44,3 +44,20 @@ The repository covers the following key concepts:
 - **Load Balancing:** Distributing workloads across multiple computing resources to ensure no single resource is overwhelmed.
 - **Failover Strategies:** Techniques to switch to a backup system in case the primary system fails.
 - **Chaos Engineering:** A practice of testing systems' resilience by intentionally introducing faults.
+
+## Best Practices
+
+Here are some of the best practices highlighted in this repository:
+
+1. **Implement Exponential Backoff:** When using retry mechanisms, use exponential backoff to avoid overwhelming the system.
+2. **Use Circuit Breakers:** Implement circuit breakers to prevent cascading failures in a distributed system.
+3. **Design for Failure:** Assume components will fail and build systems that can recover gracefully.
+4. **Health Checks:** Regularly perform health checks on your services to detect failures early.
+5. **Chaos Testing:** Continuously test your system's fault tolerance by introducing failures in a controlled manner.
+
+For more detailed information, refer to the files in the `docs/` directory.
+
+## Examples
+
+This repository includes code examples illustrating different fault tolerance mechanisms. You can find these in the `examples/` directory. To run an example, navigate to the appropriate folder and follow the instructions in the `README.md` files provided in each example subfolder.
+
