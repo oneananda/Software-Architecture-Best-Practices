@@ -34,3 +34,13 @@ This repository contains a collection of fault tolerance mechanisms, best practi
   - `chaos-simulate.sh`
   - `health-check.sh`
 - **README.md**: This file.
+
+## Key Concepts
+
+The repository covers the following key concepts:
+
+- **Retry Strategies:** Techniques to handle transient failures by retrying failed operations.
+- **Circuit Breaker:** A design pattern to detect failures and avoid repetitive failures during maintenance or temporary issues.
+- **Load Balancing:** Distributing workloads across multiple computing resources to ensure no single resource is overwhelmed.
+- **Failover Strategies:** Techniques to switch to a backup system in case the primary system fails.
+- **Chaos Engineering:** A practice of testing systems' resilience by intentionally introducing faults.
