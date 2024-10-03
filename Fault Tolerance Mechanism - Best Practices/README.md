@@ -15,3 +15,22 @@ This repository contains a collection of fault tolerance mechanisms, best practi
 - [Contributing](#contributing)
 - [License](#license)
 
+## Folder Structure
+
+- **docs/**: Documentation on fault tolerance concepts and best practices.
+  - `introduction.md`
+  - `retry-strategies.md`
+  - `circuit-breaker.md`
+  - `load-balancing.md`
+  - `failover-strategies.md`
+  - `chaos-engineering.md`
+- **examples/**: Code examples and implementations of various fault tolerance mechanisms.
+  - `retry/`
+  - `circuit-breaker/`
+  - `load-balancing/`
+  - `failover/`
+- **scripts/**: Utility scripts and tools for testing fault tolerance.
+  - `load-test.sh`
+  - `chaos-simulate.sh`
+  - `health-check.sh`
+- **README.md**: This file.
