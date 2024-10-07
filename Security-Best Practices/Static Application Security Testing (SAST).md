@@ -9,3 +9,8 @@
 3. **White-box Testing**
 4. **Automated Scanning**
 5. **Detailed Reporting**
+
+### Compliance: 
+
+SAST tools often include checks for compliance with security standards (e.g., OWASP, PCI-DSS), ensuring that the application adheres to industry best practices.
+
