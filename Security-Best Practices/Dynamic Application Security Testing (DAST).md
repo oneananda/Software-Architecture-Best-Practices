@@ -14,3 +14,8 @@
    - Works on any technology stack without needing to understand the underlying code.
 5. **Detailed Reporting**
    - Provides actionable insights for developers to patch vulnerabilities.
+
+### Compliance:
+
+DAST tools ensure that web applications comply with various security standards (e.g., OWASP, PCI-DSS, NIST), helping businesses meet regulatory requirements.
+
