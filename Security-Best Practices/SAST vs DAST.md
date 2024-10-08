@@ -7,4 +7,6 @@
 | **Type of Testing**           | White-box testing (internal view of the application). | Black-box testing (external view, simulating attacks). |
 | **Scope**                     | Focuses on finding vulnerabilities in the code itself. | Focuses on identifying vulnerabilities in the running application. |
 | **Detectable Vulnerabilities** | Code-based vulnerabilities like buffer overflows, SQL injection, hardcoded secrets. | Runtime vulnerabilities like authentication flaws, insecure configurations, session management issues. |
+| **Popular Tools**            | Checkmarx, SonarQube, Veracode, Fortify, Coverity | OWASP ZAP, Burp Suite, Acunetix, Netsparker, AppScan |
+
 
