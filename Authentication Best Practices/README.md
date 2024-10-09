@@ -12,3 +12,8 @@ If you use API keys, treat them like passwords: keep them secret and avoid embed
 
 ## 3. Implement JSON Web Tokens (JWT)
 JWTs are a popular choice for API authentication. Use them to securely transmit information between parties as a JSON object. Make sure to sign tokens with a strong algorithm like `RS256` and validate them properly on the server side.
+
+## 4. Adopt Multi-Factor Authentication (MFA)
+
+MFA adds an additional layer of security by requiring multiple forms of identification (something the user knows, something the user has, and/or something the user is).
+
