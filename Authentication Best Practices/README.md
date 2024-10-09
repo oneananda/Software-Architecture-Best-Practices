@@ -24,6 +24,7 @@ Salting (adding a random value to each password before hashing) ensures that ide
 
 ## 6. Secure Session Management
 - Use HTTP Secure (HTTPS) for all communication to prevent session hijacking.
+- Short-lived tokens (e.g., JWTs with short expiry times) reduce the attack surface in case of token theft.
 
 
 
