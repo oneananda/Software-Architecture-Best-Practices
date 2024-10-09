@@ -22,5 +22,8 @@ Passwords should never be stored in plaintext. Use a secure, slow hashing algori
 ## 5. Use Password Salting
 Salting (adding a random value to each password before hashing) ensures that identical passwords are hashed to different values.
 
+## 6. Secure Session Management
+- Use HTTP Secure (HTTPS) for all communication to prevent session hijacking.
+
 
 
