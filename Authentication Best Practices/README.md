@@ -19,5 +19,8 @@ MFA adds an additional layer of security by requiring multiple forms of identifi
 ## 5. Use Password Hashing
 Passwords should never be stored in plaintext. Use a secure, slow hashing algorithm like bcrypt.
 
+## 5. Use Password Salting
+Salting (adding a random value to each password before hashing) ensures that identical passwords are hashed to different values.
+
 
 
