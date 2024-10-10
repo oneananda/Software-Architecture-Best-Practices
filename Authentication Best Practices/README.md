@@ -32,5 +32,5 @@ Implement rate limiting on authentication endpoints to mitigate brute-force atta
 Use tools like reCAPTCHA or rate-limiting services (e.g., from AWS, Azure) to prevent abuse.
 
 ## 8. Secure Identity Providers
-Offload authentication responsibilities to secure identity providers such as Auth0, Okta, or AWS Cognito.
+Offload authentication responsibilities to secure identity providers such as Auth0, Okta, or AWS Cognito. These services come with built-in security best practices and reduce the burden of managing user authentication securely.
 
