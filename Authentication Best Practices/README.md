@@ -34,3 +34,5 @@ Use tools like reCAPTCHA or rate-limiting services (e.g., from AWS, Azure) to pr
 ## 8. Secure Identity Providers
 Offload authentication responsibilities to secure identity providers such as Auth0, Okta, or AWS Cognito. These services come with built-in security best practices and reduce the burden of managing user authentication securely.
 
+## 9. Client-Side Security
+Never trust data from the client-side; always validate on the server.
