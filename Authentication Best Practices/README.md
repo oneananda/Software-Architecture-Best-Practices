@@ -31,4 +31,6 @@ Salting (adding a random value to each password before hashing) ensures that ide
 Implement rate limiting on authentication endpoints to mitigate brute-force attacks and other automated attacks.
 Use tools like reCAPTCHA or rate-limiting services (e.g., from AWS, Azure) to prevent abuse.
 
+## 8. Secure Identity Providers
+Offload authentication responsibilities to secure identity providers such as Auth0, Okta, or AWS Cognito.
 
