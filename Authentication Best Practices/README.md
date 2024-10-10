@@ -29,5 +29,6 @@ Salting (adding a random value to each password before hashing) ensures that ide
 
 ## 7. Rate Limiting and Throttling
 Implement rate limiting on authentication endpoints to mitigate brute-force attacks and other automated attacks.
+Use tools like reCAPTCHA or rate-limiting services (e.g., from AWS, Azure) to prevent abuse.
 
 
