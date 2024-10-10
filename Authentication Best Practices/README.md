@@ -36,3 +36,5 @@ Offload authentication responsibilities to secure identity providers such as Aut
 
 ## 9. Client-Side Security
 Never trust data from the client-side; always validate on the server.
+Ensure that authentication credentials (like tokens) are stored securely, avoiding local storage or session storage for long-lived tokens.
+
