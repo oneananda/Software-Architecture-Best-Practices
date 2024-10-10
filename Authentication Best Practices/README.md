@@ -27,5 +27,7 @@ Salting (adding a random value to each password before hashing) ensures that ide
 - Short-lived tokens (e.g., JWTs with short expiry times) reduce the attack surface in case of token theft.
 - Implement secure cookie flags, such as HttpOnly, Secure, and SameSite.
 
+## 7. Rate Limiting and Throttling
+Implement rate limiting on authentication endpoints to mitigate brute-force attacks and other automated attacks.
 
 
