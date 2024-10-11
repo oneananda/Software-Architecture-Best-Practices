@@ -16,3 +16,4 @@ This repository provides an overview and implementation examples of commonly use
   - [8. Strangler Pattern](#8-strangler-pattern)
 - [Best Practices](#best-practices)
 - [Resources](#resources)
+
