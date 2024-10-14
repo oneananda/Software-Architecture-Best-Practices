@@ -9,3 +9,5 @@ Over time, code smells can lead to code that is harder to maintain, scale, or de
 1. **Duplicated Code**  
    Same or similar code exists in multiple places, making it harder to maintain and update consistently.
 
+2. **Long Method/Function**  
+   A method or function is too long and does too many things, making it difficult to understand and maintain.
