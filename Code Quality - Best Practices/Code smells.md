@@ -11,3 +11,6 @@ Over time, code smells can lead to code that is harder to maintain, scale, or de
 
 2. **Long Method/Function**  
    A method or function is too long and does too many things, making it difficult to understand and maintain.
+
+3. **Large Class**  
+   A class that has too many responsibilities, violating the Single Responsibility Principle (SRP) and making the class difficult to manage.
