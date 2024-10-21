@@ -14,3 +14,8 @@ We will see the best practices for writing high-quality code that is maintainabl
 8. [Code Review and Continuous Integration](#code-review-and-continuous-integration)
 9. [Tools and Techniques](#tools-and-techniques)
 
+## 1. Readability
+Readability is one of the most critical aspects of code quality. Well-written code is self-explanatory and easy to follow.
+
+## 2. Maintainability
+Write code that can be easily extended or modified in the future.
