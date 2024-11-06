@@ -1,4 +1,3 @@
-# **Kubernetes**
-   - **Description**: The most popular container orchestration platform, initially developed by Google and now managed by the Cloud Native Computing Foundation (CNCF).
-   - **Features**: Supports container management, scaling, auto-healing, service discovery, and load balancing across clusters.
-   - **Best For**: Large-scale, distributed applications that require high availability and scalability.
+# **Skooner**
+
+Skooner is an open-source, web-based dashboard designed to simplify the management and monitoring of Kubernetes clusters. It offers real-time insights into cluster health, resource utilization, and performance metrics, enabling users to efficiently oversee their Kubernetes environments.
