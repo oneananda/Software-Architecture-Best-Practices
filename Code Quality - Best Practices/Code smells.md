@@ -14,3 +14,6 @@ Over time, code smells can lead to code that is harder to maintain, scale, or de
 
 3. **Large Class**  
    A class that has too many responsibilities, violating the Single Responsibility Principle (SRP) and making the class difficult to manage.
+
+4. **Long Parameter List**
+   A function or method takes too many parameters, It can lead to confusion, increased chances of passing incorrect values, and it violates the "Law of Demeter" (don't talk to strangers).
