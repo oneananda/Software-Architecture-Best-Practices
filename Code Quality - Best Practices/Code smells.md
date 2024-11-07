@@ -17,3 +17,6 @@ Over time, code smells can lead to code that is harder to maintain, scale, or de
 
 4. **Long Parameter List**
    A function or method takes too many parameters, It can lead to confusion, increased chances of passing incorrect values, and it violates the "Law of Demeter" (don't talk to strangers).
+
+5. **God Object**
+   A class or object that knows too much or does too much in the system.
