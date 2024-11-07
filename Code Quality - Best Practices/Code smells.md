@@ -24,3 +24,7 @@ Over time, code smells can lead to code that is harder to maintain, scale, or de
 6. **Shotgun Surgery**
    A small change in the code requires changes in many different places in the system. [Link](https://refactoring.guru/smells/shotgun-surgery)
 
+7. **Inconsistent Naming**
+   Variables, functions, or classes use inconsistent naming conventions.
+
+  
