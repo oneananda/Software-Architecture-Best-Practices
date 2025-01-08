@@ -16,6 +16,10 @@ We will see the best practices for writing high-quality code that is maintainabl
 
 ## 1. Readability
 Readability is one of the most critical aspects of code quality. Well-written code is self-explanatory and easy to follow.
+- **Use meaningful names**: Variable, function, and class names should clearly describe their purpose.
+- **Consistent formatting**: Follow a consistent code style, including indentation, spacing, and bracket placement.
+- **Comments and documentation**: Use comments to explain non-obvious code sections and ensure comprehensive documentation is in place.
+- **Avoid deep nesting**: Too many nested conditions or loops can make code harder to understand.
 
 ## 2. Maintainability
 Write code that can be easily extended or modified in the future.
