@@ -26,3 +26,10 @@ Write code that can be easily extended or modified in the future.
 - **Modularize your code**: Break large functions and classes into smaller, reusable components.
 - **Follow SOLID principles**: Design your code to be flexible and easily modifiable by following OOP principles like Single Responsibility and Open-Closed.
 - **Separate concerns**: Ensure that different parts of your application are isolated and independently testable.
+
+## 3. Performance
+Optimize code for speed and efficiency, but don't sacrifice readability or maintainability for premature optimization.
+
+- **Avoid unnecessary computations**: Reuse calculated values where possible.
+- **Use efficient algorithms**: Be mindful of time complexity and choose the right data structures.
+- **Lazy loading**: Load resources only when necessary to reduce memory usage.
