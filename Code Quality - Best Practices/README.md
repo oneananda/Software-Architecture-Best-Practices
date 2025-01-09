@@ -33,3 +33,11 @@ Optimize code for speed and efficiency, but don't sacrifice readability or maint
 - **Avoid unnecessary computations**: Reuse calculated values where possible.
 - **Use efficient algorithms**: Be mindful of time complexity and choose the right data structures.
 - **Lazy loading**: Load resources only when necessary to reduce memory usage.
+
+## 4. Error Handling
+Ensure your code is resilient and can handle unexpected inputs or errors gracefully.
+
+- **Use exceptions appropriately**: Raise specific exceptions for different error conditions.
+- **Catch exceptions carefully**: Don't overuse `try-except`; handle only expected errors.
+- **Log meaningful errors**: Ensure error logs are clear and provide enough detail for debugging.
+
