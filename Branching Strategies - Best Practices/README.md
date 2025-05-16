@@ -47,7 +47,7 @@ To provide a clear and practical reference for selecting, implementing, and main
 * `07-faq.md`
   Frequently asked questions about branching workflows.
 
-## Recommended Usage
+## Recommended Usage 
 
 1. **For Developers:**
    Understand how to work with branches consistently and follow your team's workflow guidelines.
