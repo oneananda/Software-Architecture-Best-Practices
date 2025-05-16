@@ -9,3 +9,10 @@
 * **hotfix/**: Created from `main` to patch urgent issues in production. Merged back to both `main` and `develop`.
 
 ---
+
+### 📌 Best Practices Illustrated
+
+* Use descriptive names for branches (`feature/login-form`, `hotfix/2.1.1`).
+* Keep branches short-lived to avoid drift.
+* Always merge `hotfix` and `release` into both `main` and `develop`.
+* Tag all production releases on `main`.
