@@ -1,5 +1,8 @@
-﻿### ✅ GitFlow Branching Strategy - Best Practices 1
+﻿# ✅ GitFlow Branching Strategy
 
+
+### Best Practices 1
+	
 ### 🔁 Flow Summary
 
 * **main**: Only contains production-ready code. Tagged releases happen here.
@@ -16,3 +19,17 @@
 * Keep branches short-lived to avoid drift.
 * Always merge `hotfix` and `release` into both `main` and `develop`.
 * Tag all production releases on `main`.
+
+### Best Practices 2
+
+### 🔁 GitHub Flow Summary
+
+* **main**: Always deployable.
+* **feature branches**: Created directly off `main`, one per task or issue.
+* Pull requests trigger:
+  * Code reviews
+  * Automated CI tests
+* Once approved and passed, they’re merged into `main`.
+* Deployments happen automatically from `main`.
+
+---
