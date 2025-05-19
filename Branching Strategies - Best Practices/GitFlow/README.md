@@ -33,3 +33,21 @@
 * Deployments happen automatically from `main`.
 
 ---
+
+### 📌 Best Practices
+
+* **One branch per issue/task** (short-lived, focused).
+* **Pull Request (PR)** required for all merges.
+* **CI/CD pipelines** enforce quality gates.
+* **Deploy from `main`**, often via automation.
+* Avoid long-lived branches (e.g., no `develop`, `release`).
+
+---
+
+### 👥 Best For
+
+* Teams practicing continuous deployment.
+* Startups and SaaS products with frequent releases.
+* Projects using GitHub Actions or similar automation.
+
+---
