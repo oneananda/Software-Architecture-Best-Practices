@@ -26,3 +26,87 @@ Choosing the right branching strategy depends on your team's size, release caden
 
 ---
 
+## 2. **GitHub Flow**
+
+**✅ Pros:**
+
+* Simple and fast workflow.
+* Encourages continuous integration and delivery.
+* Pull requests ensure code review and test automation.
+
+**⚠️ Cons:**
+
+* No native support for long-term release or hotfix branches.
+* Relies heavily on discipline and good CI practices.
+* Not ideal for maintaining multiple versions in parallel.
+
+**🧭 Best When:**
+
+* You deploy frequently (daily or more).
+* Your team is small or mid-sized.
+* You favor automation and short feedback loops.
+
+---
+
+## 3. **GitLab Flow**
+
+**✅ Pros:**
+
+* Flexible and integrates well with CI/CD and issue tracking.
+* Supports both continuous delivery and release versioning.
+* Adaptable to both staging/production environments and versioned releases.
+
+**⚠️ Cons:**
+
+* More complex than GitHub Flow.
+* Needs clear internal documentation due to variations.
+
+**🧭 Best When:**
+
+* You're using GitLab and want integrated issue and environment tracking.
+* You need a balance between flexibility and control.
+* Your releases move through multiple environments (e.g., dev → staging → prod).
+
+---
+
+## 4. **Trunk-Based Development**
+
+**✅ Pros:**
+
+* Promotes rapid, small commits and continuous integration.
+* Reduces merge conflicts by avoiding long-lived branches.
+* Enables high-speed DevOps practices and frequent deployment.
+
+**⚠️ Cons:**
+
+* Requires strong CI/CD pipeline and team discipline.
+* Incomplete features need to be hidden via feature flags.
+* Less control over versioning and long-term releases.
+
+**🧭 Best When:**
+
+* You deploy multiple times a day.
+* Your team is experienced with DevOps practices.
+* You favor simplicity and speed over structure.
+
+---
+
+## 5. **Release Branching**
+
+**✅ Pros:**
+
+* Ideal for managing long-term support and multiple active versions.
+* Enables teams to isolate and patch older releases without disturbing new development.
+
+**⚠️ Cons:**
+
+* Can lead to code divergence and backporting overhead.
+* Higher maintenance cost with multiple active branches.
+
+**🧭 Best When:**
+
+* You manage enterprise or LTS software.
+* Your customers expect stability across multiple versions.
+* Your releases are infrequent but critical.
+
+---
