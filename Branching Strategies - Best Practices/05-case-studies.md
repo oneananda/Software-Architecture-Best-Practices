@@ -29,3 +29,25 @@ Different teams adopt branching strategies based on their product type, team dyn
 * Supports parallel development and emergency fixes.
 
 ---
+
+## 🚀 Case Study 2: Startup with CI/CD Pipeline (Using GitHub Flow)
+
+**Company Profile:**
+
+* <10 engineers
+* Continuous deployment to production
+* Fast-moving product iterations
+
+**Strategy:**
+
+* **GitHub Flow** for simplicity and speed.
+* Developers branch from `main`, open a PR, run CI tests, and deploy after merge.
+* PRs serve as both code review checkpoints and deployment triggers.
+
+**Why It Works:**
+
+* Low overhead.
+* Encourages fast feedback and continuous delivery.
+* Aligns with a small team focused on rapid feature delivery.
+
+---
