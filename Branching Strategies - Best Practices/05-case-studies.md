@@ -51,3 +51,26 @@ Different teams adopt branching strategies based on their product type, team dyn
 * Aligns with a small team focused on rapid feature delivery.
 
 ---
+
+## 🧪 Case Study 3: Mid-Size Product Team (Using GitLab Flow)
+
+**Company Profile:**
+
+* \~30 developers
+* Staging and production environments
+* Feature flags and CI/CD
+
+**Strategy:**
+
+* **GitLab Flow (environment-based)**.
+* Use of `main`, `staging`, and `production` branches.
+* `feature/` branches merged into `main`, which auto-deploys to staging.
+* Production deployment requires a manual merge from `main` to `production`.
+
+**Why It Works:**
+
+* Balances fast iteration with controlled deployment.
+* Integrates well with GitLab’s issue boards and pipelines.
+* Allows time for QA in staging without blocking development.
+
+---
