@@ -74,3 +74,26 @@ Different teams adopt branching strategies based on their product type, team dyn
 * Allows time for QA in staging without blocking development.
 
 ---
+
+## 📱 Case Study 4: Mobile App Development (Using Release Branching)
+
+**Company Profile:**
+
+* Mobile dev team for Android/iOS
+* Multiple app versions live in stores
+* Long-term support required
+
+**Strategy:**
+
+* **Release Branching** model.
+* `main` for latest version.
+* `release/1.x`, `release/2.x` for supported versions.
+* Bug fixes are cherry-picked or merged into active release branches.
+
+**Why It Works:**
+
+* Supports multiple parallel versions.
+* Critical fixes can be isolated and tested per release line.
+* Ideal for environments with external app store release constraints.
+
+---
