@@ -97,3 +97,26 @@ Different teams adopt branching strategies based on their product type, team dyn
 * Ideal for environments with external app store release constraints.
 
 ---
+
+## 🏗️ Case Study 5: DevOps-Centric Platform Team (Using Trunk-Based Development)
+
+**Company Profile:**
+
+* Backend platform team
+* Strong CI/CD discipline
+* Frequent (multiple per day) deployments
+
+**Strategy:**
+
+* **Trunk-Based Development**.
+* All developers commit to `main` or short-lived feature branches that merge within hours.
+* Incomplete features hidden behind flags.
+* Fully automated testing and deployment pipeline.
+
+**Why It Works:**
+
+* Minimizes merge conflicts and technical debt.
+* Encourages small, safe, incremental changes.
+* High confidence in CI/CD allows fast shipping with stability.
+
+---
