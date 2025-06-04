@@ -29,3 +29,22 @@ Popular platforms that provide collaboration, automation, and visibility.
 
 ---
 
+## ⚙️ Continuous Integration & Deployment (CI/CD)
+
+CI/CD tools run tests, build artifacts, and deploy code automatically when changes occur in specific branches.
+
+### Common CI/CD Tools:
+
+* **GitHub Actions** (best for GitHub)
+* **GitLab CI/CD** (tight integration with GitLab)
+* **CircleCI**, **Travis CI**, **Jenkins**, **Azure Pipelines**
+* **Bitbucket Pipelines** for Atlassian environments
+
+### Best Practices:
+
+* Trigger builds/tests on pull/merge requests.
+* Deploy from `main`, `release/*`, or `production` branches.
+* Use branch-based environment mapping (e.g., `main` → staging, `production` → prod).
+* Set up branch-specific rules for test coverage or linting.
+
+---
