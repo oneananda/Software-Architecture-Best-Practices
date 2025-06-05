@@ -89,3 +89,56 @@ Use automation tools to deploy code to environments based on branch actions.
 | Vercel / Netlify | Auto-deploy from specific branches      |
 
 ---
+
+## 🧠 Advanced: Feature Flag Management
+
+For Trunk-Based or GitHub Flow models, feature flags help ship incomplete features safely.
+
+### Tools:
+
+* **LaunchDarkly**, **Unleash**, **Flagsmith**, **Firebase Remote Config**
+* Custom internal flag systems
+
+### Benefits:
+
+* Merge early, release late
+* Decouple deployment from release
+* Safer experimentation and rollbacks
+
+---
+
+## 🧩 Supporting Tools
+
+| Tool                      | Purpose                           |
+| ------------------------- | --------------------------------- |
+| **Semantic Release**      | Automates versioning & changelogs |
+| **Husky**                 | Git hook manager (for pre-commit) |
+| **Renovate / Dependabot** | Automated dependency updates      |
+| **Danger**                | PR automation for reviewing rules |
+| **Codecov / Coveralls**   | Code coverage reports in PRs      |
+
+---
+
+## 🔁 Automation Example: GitHub Flow with CI/CD
+
+1. Developer pushes to `feature/login`.
+2. GitHub Actions:
+
+   * Runs tests, linters
+   * Posts status on PR
+3. PR is reviewed & approved.
+4. Upon merge to `main`:
+
+   * Tests re-run
+   * Production deployed via CD
+   * Slack/Teams notification triggered
+
+---
+
+## Final Thoughts
+
+> Automation is not optional — it's essential for consistency, speed, and quality.
+
+Integrate tools that match your branching strategy and team size. As your process matures, revisit your automation pipelines to reduce friction and increase confidence in every deployment.
+
+---
