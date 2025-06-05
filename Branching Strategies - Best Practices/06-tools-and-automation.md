@@ -48,3 +48,44 @@ CI/CD tools run tests, build artifacts, and deploy code automatically when chang
 * Set up branch-specific rules for test coverage or linting.
 
 ---
+
+## 🔐 Branch Protection and Policy Enforcement
+
+Ensure code quality and compliance by enforcing rules before merging.
+
+### GitHub / GitLab / Bitbucket Support:
+
+* Require PR/MR review and approval
+* Require passing CI checks
+* Disallow direct pushes to `main` or `production`
+* Enforce signed commits or linear history
+
+### Tools:
+
+* **Git Hooks** (local automation): Prevent bad commits or branch switches.
+* **Pre-commit Framework**: Automate checks (linting, format, security).
+
+---
+
+## 🧪 Testing and QA Automation
+
+* **Unit Tests**: Run automatically on all PRs.
+* **Integration Tests**: Gate merges to `main`, `release`, or `staging`.
+* **End-to-End Tests**: Trigger on merges to `staging` or before production releases.
+* **Test Reporting**: Use dashboards or PR comments for visibility.
+
+---
+
+## 🚀 Deployment Automation
+
+Use automation tools to deploy code to environments based on branch actions.
+
+| Tool             | Capabilities                            |
+| ---------------- | --------------------------------------- |
+| GitHub Actions   | Automate deployments from PRs or `main` |
+| GitLab Pipelines | Stage/Prod deployments tied to branches |
+| Argo CD / Flux   | GitOps workflows for Kubernetes         |
+| AWS CodePipeline | CI/CD for AWS-based apps                |
+| Vercel / Netlify | Auto-deploy from specific branches      |
+
+---
