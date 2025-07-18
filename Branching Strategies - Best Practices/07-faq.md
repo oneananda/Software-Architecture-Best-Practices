@@ -41,3 +41,80 @@ Long-lived branches are prone to merge conflicts and integration issues. Try to:
 * Use feature flags if a feature isn’t complete but needs to be merged.
 
 ---
+
+### ❓ Should we use merge or rebase?
+
+* Use **merge** for team collaboration (PRs/MRs), as it preserves context and review history.
+* Use **rebase** for local cleanup (before opening a PR) to keep a tidy commit history.
+
+**Tip:** Never rebase shared branches unless you know what you’re doing.
+
+---
+
+### ❓ How do we manage hotfixes?
+
+Depends on your model:
+
+* **Git Flow**: Use `hotfix/*` branches off `main`.
+* **GitHub Flow**: Patch on `main` and deploy immediately.
+* **GitLab Flow / Release Branching**: Patch on `release/x.y` or `production`.
+
+Always merge hotfixes back into both the active development branch and the release/production branch.
+
+---
+
+### ❓ What’s the difference between `main` and `master`?
+
+Nothing functionally.
+The Git community is moving toward using `main` as the default branch name to replace the legacy `master`. You can configure Git or hosting platforms to use either.
+
+---
+
+### ❓ How do we onboard new developers to our branching model?
+
+* Document your branching strategy in the project’s README or a `CONTRIBUTING.md`.
+* Use automation (CI, linters, branch protection) to reinforce rules.
+* Pair new devs with experienced team members during their first few PRs.
+
+---
+
+### ❓ When should we tag a release?
+
+* When deploying to production.
+* When finalizing a release in `main` or `release/x.y` branches.
+* Tags help track history and support rollbacks or patches.
+
+Use semantic versioning (`v1.2.3`) for clarity.
+
+---
+
+### ❓ How do we manage branching in monorepos?
+
+Same principles apply:
+
+* Use consistent naming and short-lived branches.
+* CI tools like Nx, Turborepo, or Lerna can scope builds/tests per package.
+* Consider a trunk-based model with feature flags to avoid large, diverging branches.
+
+---
+
+### ❓ When should we change our branching strategy?
+
+When your **current one is holding you back**. Signs include:
+
+* Frequent merge conflicts
+* Slow release cycles
+* Inconsistent deployment processes
+* Poor test coverage or QA visibility
+
+Branching strategies should evolve with your **team maturity**, **tooling**, and **product lifecycle**.
+
+---
+
+## Final Word
+
+> A branching strategy is a tool, not a rule. The best one is the one your team understands, follows, and can automate.
+
+Keep it simple. Keep it documented. And keep it flexible.
+
+---
