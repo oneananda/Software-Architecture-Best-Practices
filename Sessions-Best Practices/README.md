@@ -48,3 +48,7 @@ To ensure both security and efficiency, the following best practices should be f
 
 ---
 
+## 7. Monitoring & Auditing
+- Log session creation, destruction, and anomalies (like multiple concurrent logins).  
+- Monitor for suspicious activity such as session reuse or brute-force attempts.  
+- Integrate alerts for abnormal session patterns.
