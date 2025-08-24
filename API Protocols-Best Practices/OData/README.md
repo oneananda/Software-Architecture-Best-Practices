@@ -21,3 +21,12 @@ Originally developed by Microsoft, OData is now an **OASIS standard** and widely
   Create, Read, Update, Delete via standard HTTP verbs.
 
 ---
+
+## 🏗 Architecture
+
+OData follows a **REST + Query Language** approach:
+- **Resource Model**: Entities and collections (like REST resources).
+- **Query Options**: Uniform syntax for filtering, ordering, and projections.
+- **Metadata**: Auto-discovery via `/$metadata`.
+
+---
